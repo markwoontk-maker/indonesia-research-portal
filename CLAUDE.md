@@ -9,7 +9,7 @@ Sister site to `India-Research-Portal`. It uses the same look and the same tabs,
 - **Always commit + push on any change**, so the live site stays current.
 
 ## Data pipeline (all free, keyless)
-**idx.co.id returns 403 to GitHub Actions runners**, so the `idx` step (plus the research sync) runs on the PC via `scripts/local-refresh.ps1` (Task Scheduler) and pushes the raw IDX files. `scripts/refresh.py yahoo news build` runs in GitHub Actions (`.github/workflows/refresh.yml`): every 30 min, 08:05-18:35 WIB on weekdays, plus news-only runs on evenings and weekends. Each run commits `data/`.
+**idx.co.id returns 403 to GitHub Actions runners**, so the `idx` step (plus the research sync) runs on the PC via `scripts/local-refresh.ps1` (Windows task **"Indonesia Portal Data Refresh"**, weekdays 12:30 + 18:00 MYT, StartWhenAvailable; log `scripts/local-refresh.log`) and pushes the raw IDX files. `scripts/refresh.py yahoo news build` runs in GitHub Actions (`.github/workflows/refresh.yml`): every 30 min, 08:05-18:35 WIB on weekdays, plus news-only runs on evenings and weekends. Each run commits `data/`.
 - **IDX** (`idx.co.id/primary/...`, behind Cloudflare). Fetched with `curl_cffi` Chrome impersonation; plain requests and curl get a 403.
   - `TradingSummary/GetStockSummary?date=YYYYMMDD` returns every stock's close, value and **ForeignBuy/ForeignSell (in shares)**. Raw files are stored as `data/idx/YYYY/YYYYMMDD.csv.gz`, backfilled from 1 Oct 2025.
   - Foreign net value = (fbuy − fsell) × VWAP, where VWAP = value/volume, summed over all boards. Check: 6 Oct 2026 came to −Rp601bn vs −Rp630bn in the press.

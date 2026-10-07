@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Indonesia Research Portal — Indonesia Equity Desk</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Roboto+Mono:wght@400;500;600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/style.css" />
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+<div class="layout">
+  <aside class="side">
+    <div class="brand">
+      <h1><span class="flag" aria-hidden="true"></span>Indonesia Research</h1>
+      <span>Portal</span>
+    </div>
+    <nav>
+      <div class="nav-label">Desk</div>
+      <button class="nav-item active" data-view="overview" data-title="Market Overview">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="7" height="9"/><rect x="14" y="3" width="7" height="5"/><rect x="14" y="12" width="7" height="9"/><rect x="3" y="16" width="7" height="5"/></svg>
+        Overview</button>
+      <button class="nav-item" data-view="news" data-title="News">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 17l6-6 4 4 8-8"/><path d="M21 7v6h-6"/></svg>
+        News</button>
+      <button class="nav-item" data-view="research" data-title="Research Notes">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 19V5a2 2 0 0 1 2-2h10l4 4v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z"/><path d="M9 9h6M9 13h6"/></svg>
+        Research</button>
+      <button class="nav-item" data-view="strategy" data-title="House Strategy">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 12l5-3"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3"/></svg>
+        Strategy</button>
+      <button class="nav-item" data-view="flows" data-title="Fund Flows">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M7 4v13M7 17l-3-3M7 17l3-3M17 20V7M17 7l-3 3M17 7l3 3"/></svg>
+        Fund Flows</button>
+      <button class="nav-item" data-view="sector" data-title="Sector">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+        Sector</button>
+      <button class="nav-item" data-view="watchlist" data-title="Watchlist">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4h16v16H4z"/><path d="M4 10h16M10 10v10"/></svg>
+        Watchlist</button>
+    </nav>
+    <div class="side-foot">
+      <b>Indonesia Equity Desk</b><br/>
+      IDX · JCI coverage universe<br/>
+      End-of-day + 30-min index refresh · Indicative
+    </div>
+  </aside>
+
+  <main>
+    <div class="topbar">
+      <div>
+        <div class="title" id="pageTitle">Market Overview</div>
+        <div class="sub" id="pageSub">IDX · Jakarta</div>
+      </div>
+      <label class="search">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input id="searchIn" placeholder="Search BBCA, Telkom…" autocomplete="off" />
+        <div class="search-res" id="searchRes" hidden></div>
+      </label>
+      <div class="session" id="session"><span class="dot"></span><span id="sessionTxt">Loading…</span></div>
+    </div>
+    <div class="ticker"><div class="ticker-track" id="tickerTrack"></div></div>
+
+    <div class="wrap">
+      <!-- ================= OVERVIEW ================= -->
+      <section class="view" id="view-overview">
+        <div class="kpis">
+          <div class="kpi reveal"><div class="lbl">JCI (IHSG)</div><div class="big mono" id="kJci">—</div><div class="chg" id="kJciChg"></div><div class="meta" id="kJciMeta">Jakarta Composite Index</div></div>
+          <div class="kpi reveal" style="animation-delay:.05s"><div class="lbl">Market Breadth</div><div class="big mono" id="kBreadth">— / —</div><div class="breadth-bar" id="kBreadthBar"></div><div class="meta" id="kBreadthMeta">IDX advances vs declines</div></div>
+          <div class="kpi reveal" style="animation-delay:.1s"><div class="lbl">Foreign Net Flow</div><div class="big mono" id="kFlow">—</div><div class="chg" id="kFlowChg"></div><div class="meta" id="kFlowMeta">All boards · Rp bn</div></div>
+          <div class="kpi reveal" style="animation-delay:.15s"><div class="lbl">USD / IDR</div><div class="big mono" id="kFx">—</div><div class="chg" id="kFxChg"></div><div class="meta">Rupiah per US dollar · ↑ = weaker IDR</div></div>
+        </div>
+
+        <div class="grid-2">
+          <div class="card reveal">
+            <div class="card-h">
+              <div><h3 id="idxChartTitle">JCI — Index Performance</h3><p id="idxChartSub">Yahoo Finance · ^JKSE</p></div>
+              <div class="seg" id="idxRange"></div>
+            </div>
+            <div class="chart-box tall"><canvas id="idxChart"></canvas></div>
+          </div>
+          <div class="card reveal">
+            <div class="card-h"><div><h3>Desk Snapshot</h3><p>Tick rows to overlay returns on the chart (0% baseline)</p></div></div>
+            <div id="deskRows"></div>
+          </div>
+        </div>
+
+        <div class="grid-2e">
+          <div class="card reveal">
+            <div class="card-h">
+              <div><h3>Sector Performance</h3><p id="secSub">IDX-IC sector indices</p></div>
+              <div class="seg" id="secRange"></div>
+            </div>
+            <div id="sectorBars"></div>
+          </div>
+          <div class="card reveal">
+            <div class="card-h">
+              <div><h3>Foreign Flow Pulse</h3><p>Daily foreign net buy/sell, last 30 sessions · Rp bn</p></div>
+            </div>
+            <div class="chart-box"><canvas id="pulseChart"></canvas></div>
+            <div class="note" id="pulseNote"></div>
+          </div>
+        </div>
+
+        <div class="card reveal">
+          <div class="card-h">
+            <div><h3>Top 20 &amp; Bottom 20</h3><p id="moversSub">Top ~260 IDX stocks by market cap</p></div>
+            <div class="seg" id="mvRange"></div>
+          </div>
+          <div class="cols-2">
+            <div><div class="col-h up">Top 20 gainers</div><table class="tbl mv-tbl" id="mvTop"></table></div>
+            <div><div class="col-h down">Bottom 20 detractors</div><table class="tbl mv-tbl" id="mvBot"></table></div>
+          </div>
+        </div>
+
+        <div class="card reveal">
+          <div class="card-h"><div><h3>52-Week High Watch</h3><p id="hiSub">Large/mid caps within 3% of their 52-week closing high</p></div></div>
+          <div class="cols-2">
+            <div><div class="col-h up">At / near 52-week high</div><table class="tbl" id="hiTbl"></table></div>
+            <div><div class="col-h down">At / near 52-week low</div><table class="tbl" id="loTbl"></table></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= NEWS ================= -->
+      <section class="view" id="view-news" hidden>
+        <div class="card">
+          <div class="card-h">
+            <div><h3>News You Need to Know</h3><p id="newsSub">Google News · Indonesia · last 2–3 days</p></div>
+            <div class="seg" id="newsSeg"></div>
+          </div>
+          <ul class="news-list" id="newsList"></ul>
+        </div>
+        <div class="card">
+          <div class="card-h"><div><h3>Broker Macro &amp; Strategy Notes</h3><p>Latest Indonesia Macro / Strategy reports in the archive</p></div></div>
+          <div id="macroNotes"></div>
+        </div>
+      </section>
+
+      <!-- ================= RESEARCH ================= -->
+      <section class="view" id="view-research" hidden>
+        <div class="grid-2e">
+          <div class="card"><div class="card-h"><div><h3>▲ Upgrades &amp; TP raises</h3><p id="upSub"></p></div></div><table class="tbl" id="upTbl"></table></div>
+          <div class="card"><div class="card-h"><div><h3>▼ Downgrades &amp; TP cuts</h3><p id="dnSub"></p></div></div><table class="tbl" id="dnTbl"></table></div>
+        </div>
+        <div class="card">
+          <div class="card-h">
+            <div><h3>Latest Research Notes</h3><p id="rnSub">Broker reports from the Indonesia archive · metadata only</p></div>
+            <div class="filters">
+              <select class="dd" id="rnWindow"><option value="3">Last 3 days</option><option value="7" selected>Last 7 days</option><option value="30">Last 30 days</option><option value="9999">All</option></select>
+              <select class="dd" id="rnKind"><option value="">All types</option><option value="company">Company</option><option value="sector">Sector</option><option value="macro">Macro</option><option value="strategy">Strategy</option></select>
+              <div class="seg" id="rnGroup"></div>
+            </div>
+          </div>
+          <div id="rnList"></div>
+        </div>
+      </section>
+
+      <!-- ================= STRATEGY ================= -->
+      <section class="view" id="view-strategy" hidden>
+        <div class="card">
+          <div class="card-h"><div><h3>House Strategy — Latest Calls</h3><p id="stSub">Indonesia strategy reports · JCI view, key arguments, top-pick changes</p></div></div>
+          <div class="house-grid" id="houseGrid"></div>
+        </div>
+        <div class="card">
+          <div class="card-h"><div><h3>Top Picks Matrix</h3><p>Which houses hold each name in their Indonesia top-pick list · sorted by consensus · ◉ = high conviction · return since report date</p></div></div>
+          <div class="scroll-x"><table class="tbl matrix" id="pickMatrix"></table></div>
+        </div>
+        <div class="card">
+          <div class="card-h"><div><h3>Sector Tilt — inferred from top picks</h3><p>Number of top picks per IDX-IC sector by house. This is a proxy derived from pick lists, not a formal OW/UW sector call.</p></div></div>
+          <div class="scroll-x"><table class="tbl matrix" id="tiltGrid"></table></div>
+        </div>
+      </section>
+
+      <!-- ================= FUND FLOWS ================= -->
+      <section class="view" id="view-flows" hidden>
+        <div class="card">
+          <div class="card-h">
+            <div><h3>Net Foreign Flows — IDX equities</h3><p id="flowSub">All boards · Rp bn · daily</p></div>
+            <div style="display:flex;gap:8px;flex-wrap:wrap"><div class="seg" id="flowPeriod"></div><div class="seg" id="flowAgg"></div></div>
+          </div>
+          <div class="flow-kpis" id="flowKpis"></div>
+          <div class="chart-box tall"><canvas id="flowChart"></canvas></div>
+          <div class="note">Bars = net foreign buy (green) or sell (red) per bucket. Line = cumulative over the selected period (right axis). Source: IDX daily stock summary (foreign buy/sell volume per stock × the stock's VWAP, regular and negotiated boards). Figures can differ slightly from regular-board-only numbers quoted in the press.</div>
+        </div>
+        <div class="card">
+          <div class="card-h">
+            <div><h3>Foreign Flow by Sector</h3><p>Net foreign buy/sell by IDX-IC sector · Rp bn · click a row for its daily chart</p></div>
+          </div>
+          <div class="scroll-x"><table class="tbl" id="secFlowTbl"></table></div>
+          <div id="secFlowDetail" hidden style="margin-top:14px"><div class="col-h" id="secFlowTitle"></div><div class="chart-box short"><canvas id="secFlowChart"></canvas></div></div>
+        </div>
+        <div class="card">
+          <div class="card-h">
+            <div><h3>Top Foreign Net Buys &amp; Sells</h3><p id="topFlowSub">By stock · Rp bn</p></div>
+            <div class="seg" id="topFlowSeg"></div>
+          </div>
+          <div class="cols-2">
+            <div><div class="col-h up">Foreign net buy</div><table class="tbl" id="fBuyTbl"></table></div>
+            <div><div class="col-h down">Foreign net sell</div><table class="tbl" id="fSellTbl"></table></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= SECTOR ================= -->
+      <section class="view" id="view-sector" hidden>
+        <div class="card">
+          <div class="card-h"><div><h3>Sector Selector</h3><p>Pick an IDX-IC sector. It drives the performance chart, foreign flows, constituents and broker notes below.</p></div></div>
+          <div class="sec-chips" id="secChips"></div>
+        </div>
+        <div class="card">
+          <div class="card-h">
+            <div><h3 id="sdTitle">—</h3><p id="sdSub">Sector index vs JCI · rebased to 0%</p></div>
+            <div class="seg" id="sdRange"></div>
+          </div>
+          <div class="sec-stats" id="sdStats"></div>
+          <div class="chart-box"><canvas id="sdChart"></canvas></div>
+        </div>
+        <div class="grid-2">
+          <div class="card">
+            <div class="card-h"><div><h3>Largest Constituents</h3><p>By market cap · foreign net = latest session · click headers to sort</p></div></div>
+            <div class="scroll-x"><table class="tbl" id="sdCons"></table></div>
+          </div>
+          <div class="card">
+            <div class="card-h"><div><h3>Sector Foreign Flow</h3><p>Daily net, last 40 sessions · Rp bn</p></div></div>
+            <div class="chart-box short"><canvas id="sdFlowChart"></canvas></div>
+            <div class="note" id="sdFlowNote"></div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-h"><div><h3>Broker Views in this Sector</h3><p>Company and sector notes mapped to this IDX-IC sector · <span id="sdTilt"></span></p></div></div>
+          <div id="sdNotes"></div>
+        </div>
+      </section>
+
+      <!-- ================= WATCHLIST ================= -->
+      <section class="view" id="view-watchlist" hidden>
+        <div class="card">
+          <div class="card-h"><div><h3>Latest Research — Watchlist</h3><p id="wlRnSub">Notes on watchlist and holdings names · last 30 days</p></div></div>
+          <div id="wlNotes"></div>
+        </div>
+        <div class="card">
+          <div class="card-h">
+            <div><h3>Current Holdings</h3><p id="wlSub">Saved in this browser only · prices are IDX closes</p></div>
+            <div class="filters">
+              <input class="txt-in" id="wlCode" placeholder="Ticker e.g. BBCA" size="10" maxlength="4" />
+              <input class="txt-in" id="wlQty" placeholder="Qty (shares)" size="10" />
+              <input class="txt-in" id="wlPx" placeholder="Entry Rp" size="8" />
+              <input class="txt-in" id="wlDt" type="date" />
+              <button class="btn" id="wlAddHold">Add holding</button>
+            </div>
+          </div>
+          <div class="scroll-x"><table class="tbl" id="wlHold"></table></div>
+        </div>
+        <div class="card">
+          <div class="card-h">
+            <div><h3>Watchlist</h3><p>Names you are tracking. Returns are from Yahoo Finance and match IDX closes.</p></div>
+            <div class="filters">
+              <input class="txt-in" id="wlWCode" placeholder="Ticker" size="8" maxlength="4" />
+              <button class="btn ghost" id="wlAddWatch">Add to watchlist</button>
+            </div>
+          </div>
+          <div class="scroll-x"><table class="tbl" id="wlWatch"></table></div>
+        </div>
+      </section>
+    </div>
+    <footer><span>© 2026 Indonesia Research Portal · Indonesia Equity Desk · For illustration only, not investment advice.</span><span class="mono" id="clock"></span></footer>
+  </main>
+</div>
+<script src="assets/app.js"></script>
+</body>
+</html>

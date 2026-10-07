@@ -1,0 +1,84 @@
+{
+  "updated": "2026-10-07",
+  "houses": [
+    {
+      "h": "UOB Kay Hian",
+      "d": "2026-10-05",
+      "title": "October Alpha Picks: Earnings Delivery Amid Macro Uncertainty",
+      "stance": "Cautious",
+      "jci": null,
+      "points": [
+        "September was a macro-led sell-off (JCI −7.9% MoM). Tech, infrastructure and property fell the most.",
+        "An October rebound depends on bond yields stabilising, less pressure on the rupiah and slower foreign selling.",
+        "Rotating from macro beta to company-specific earnings catalysts ahead of 3Q26 results and the 27–28 Oct Fed meeting.",
+        "To watch: short selling is being phased back in, starting with ASII, BBCA, BRPT, BUMI and INDF, and the minimum share price is now Rp1."
+      ],
+      "picks": [
+        {"c": "AADI", "tp": 14300}, {"c": "ASII", "tp": 7100}, {"c": "BBCA", "tp": 8150}, {"c": "BULL", "tp": 770},
+        {"c": "CMRY", "tp": 6400}, {"c": "ELSA", "tp": 1450}, {"c": "GOTO", "tp": 60}, {"c": "INKP", "tp": 15700},
+        {"c": "TLKM", "tp": 3300}, {"c": "EXCL", "tp": 3600}
+      ],
+      "added": ["TLKM", "AADI", "GOTO"],
+      "removed": ["AMMN", "ARCI", "BMRI"]
+    },
+    {
+      "h": "CLSA",
+      "d": "2026-09-29",
+      "title": "IF26 wrap: Some improvement in investor sentiment",
+      "stance": "Constructive",
+      "jci": null,
+      "points": [
+        "Foreign investors at IF26 were less bearish than three months ago: lower risk premium, attractive valuation, less policy noise.",
+        "MSCI remains an overhang until Nov 2026. Most investors see low risk of a downgrade to Frontier, but expect no additions for a while.",
+        "QTD foreign flows: +US$1.3bn into bonds versus −US$221m out of equities. The 10Y government bond yield is stable at ~7.1%.",
+        "CLSA expects 1–2 BI rate hikes before year-end. If foreign inflows return, they should favour big caps. BCA remains the top pick."
+      ],
+      "picks": [
+        {"c": "BBCA", "tp": 9300}, {"c": "BBNI", "tp": 4700}, {"c": "ISAT", "tp": 2700}, {"c": "INCO", "tp": 7800, "hc": true},
+        {"c": "ANTM", "tp": 4000}, {"c": "AMRT", "tp": 2200}, {"c": "MAPA"}, {"c": "ASII"}
+      ],
+      "added": [],
+      "removed": []
+    },
+    {
+      "h": "CGS International",
+      "d": "2026-09-25",
+      "title": "Alpha – 4Q26F outlook: Entering choppy waters",
+      "stance": "Cautious",
+      "jci": 6500,
+      "jciNote": "2026F target, lowered",
+      "points": [
+        "Domestic fund cash levels have fallen to 6.2% (4-yr avg 7.3%), so the next leg of any rally needs foreign buying.",
+        "Brent above US$100/bbl and expected Fed hikes are the main headwinds, given the 3% fiscal deficit cap.",
+        "Base case for the Oct-26 MSCI review: the freeze is extended with a neutral comment. Labour and anti-corruption bills are 4Q risks.",
+        "Top picks tilted away from cyclicals: ISAT added, BBNI and BFIN removed. Commodities remain the main source of earnings growth."
+      ],
+      "picks": [
+        {"c": "BBCA"}, {"c": "BBRI"}, {"c": "ASII"}, {"c": "AADI"}, {"c": "UNVR"}, {"c": "ISAT"},
+        {"c": "EXCL"}, {"c": "TINS"}, {"c": "JPFA"}, {"c": "MAPA"}, {"c": "WIIM"}
+      ],
+      "added": ["ISAT"],
+      "removed": ["BBNI", "BFIN"]
+    },
+    {
+      "h": "BNI Sekuritas",
+      "d": "2026-08-28",
+      "title": "Back onto the well-trodden path",
+      "stance": "Constructive",
+      "jci": null,
+      "points": [
+        "Indonesia's macro anchors (the 3% deficit cap and orthodox BI hikes in defence of the rupiah) have held through every stress episode since 2001.",
+        "Market bottoms have historically formed only after rupiah pressure eases, so currency stabilisation comes first.",
+        "The JCI trades at 8.1x 1Y forward P/E, 2.6 standard deviations below its 5Y mean. Earnings carry downside risk, but cash flows and balance sheets are solid.",
+        "Tail risks: MSCI classification and the FTSE rebalance. S&P's sovereign affirmation helps sentiment."
+      ],
+      "picks": [
+        {"c": "BBCA", "tp": 8700}, {"c": "ASII", "tp": 7300}, {"c": "AMRT", "tp": 1800}, {"c": "MYOR", "tp": 2200},
+        {"c": "HRTA", "tp": 3900}, {"c": "UNVR", "tp": 1800}, {"c": "TLKM", "tp": 2900}, {"c": "ANTM", "tp": 5900},
+        {"c": "ADMR", "tp": 2200}, {"c": "NCKL", "tp": 1800}
+      ],
+      "added": [],
+      "removed": []
+    }
+  ]
+}

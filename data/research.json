@@ -1,0 +1,588 @@
+{
+"notes": [
+{
+"d": "2026-10-07",
+"h": "UOB Kay Hian",
+"co": "Energi Mega Persada",
+"f": "Energi Mega Persada",
+"k": "company",
+"t": "Funding The Growth Runway",
+"action": "maintain",
+"rating": "BUY",
+"tp": 1870.0,
+"tk": "ENRG"
+},
+{
+"d": "2026-10-06",
+"h": "UOB Kay Hian",
+"co": "Japfa Comfeed Indonesia",
+"f": "Japfa Comfeed Indonesia",
+"k": "company",
+"t": "Site Visit Takeaways, Further Scaling Up Downstream",
+"action": "maintain",
+"rating": "BUY",
+"tp": 2900.0,
+"tk": "JPFA"
+},
+{
+"d": "2026-10-06",
+"h": "CLSA",
+"co": "Super Bank Indonesia",
+"f": "Super Bank Indonesia",
+"k": "company",
+"t": "Recent developments support growth",
+"rating": "O-PF",
+"tp": 900.0,
+"tk": "SUPA"
+},
+{
+"d": "2026-10-05",
+"h": "UOB Kay Hian",
+"co": "Indonesia Macro",
+"f": "Indonesia Macro",
+"k": "macro",
+"t": "Indonesia Inflation Rises On Food Prices, With More Pressure Ahead"
+},
+{
+"d": "2026-10-05",
+"h": "UOB Kay Hian",
+"co": "Indonesia Strategy",
+"f": "Indonesia Strategy",
+"k": "strategy",
+"t": "October Alpha Picks, Earnings Delivery Amid Macro Uncertainty"
+},
+{
+"d": "2026-10-05",
+"h": "Maybank",
+"co": "Indonesia Banks",
+"f": "Indonesia Banks",
+"k": "sector",
+"t": "Robust Aug'26 loan growth"
+},
+{
+"d": "2026-10-05",
+"h": "CLSA",
+"co": "Samudera Indonesia",
+"f": "Samudera Indonesia",
+"k": "company",
+"t": "Group meeting insights from Samudera (SMDR IJ, N-R)",
+"rating": "NOT RATED",
+"tk": "SMDR"
+},
+{
+"d": "2026-10-02",
+"h": "UOB Kay Hian",
+"co": "Singaraja Putra",
+"f": "Singaraja Putra",
+"k": "company",
+"t": "Transforming Into A Mid-tier Coal Player",
+"rating": "NOT RATED",
+"tk": "SINI"
+},
+{
+"d": "2026-10-02",
+"h": "Nomura",
+"co": "Bank Syariah Indonesia",
+"f": "Bank Syariah Indonesia",
+"k": "company",
+"t": "Rights issue II",
+"action": "maintain",
+"rating": "BUY",
+"tp": 3250.0,
+"tk": "BRIS"
+},
+{
+"d": "2026-10-02",
+"h": "CLSA",
+"co": "Blue Bird",
+"f": "Blue Bird",
+"k": "company",
+"t": "Takeaways from group meeting with management",
+"rating": "HC O-PF",
+"tp": 2350.0,
+"tk": "BIRD"
+},
+{
+"d": "2026-10-02",
+"h": "CLSA",
+"co": "Indonesia Macro",
+"f": "Indonesia Macro",
+"k": "macro",
+"t": "ASEAN PMI, Divergent outcomes amid oil price pressures"
+},
+{
+"d": "2026-10-02",
+"h": "CGS International",
+"co": "Bank BTPN Syariah",
+"f": "Bank BTPN Syariah",
+"k": "company",
+"t": "Mid-teen EPS growth, share buyback upside",
+"action": "maintain",
+"rating": "ADD",
+"tp": 1300.0,
+"tk": "BTPS"
+},
+{
+"d": "2026-10-02",
+"h": "CGS International",
+"co": "Medco Energi Internasional",
+"f": "Medco Energi Internasional",
+"k": "company",
+"t": "Sustaining disciplined growth trajectory",
+"action": "maintain",
+"rating": "ADD",
+"tp": 2270.0,
+"ptp": 2170.0,
+"tk": "MEDC"
+},
+{
+"d": "2026-10-01",
+"h": "UOB Kay Hian",
+"co": "Indonesia Banks",
+"f": "Indonesia Banks",
+"k": "sector",
+"t": "Free-Float Compliance Faces A Valuation Hurdle"
+},
+{
+"d": "2026-10-01",
+"h": "Nomura",
+"co": "Indonesia Macro",
+"f": "Indonesia Macro",
+"k": "macro",
+"t": "Fiscal risk monitor #10 - Budget 2027 faces another test of policy credibility"
+},
+{
+"d": "2026-10-01",
+"h": "JPMorgan",
+"co": "Indonesia Macro",
+"f": "Indonesia Macro",
+"k": "macro",
+"t": "Inflation climbed further in September - ... adding to the risk of further policy rate hikes"
+},
+{
+"d": "2026-10-01",
+"h": "CLSA",
+"co": "Indonesia Macro",
+"f": "Indonesia Macro",
+"k": "macro",
+"t": "September food inflation amidst prolonged dry season"
+},
+{
+"d": "2026-10-01",
+"h": "CGS International",
+"co": "Indonesia Banks",
+"f": "Indonesia Banks",
+"k": "sector",
+"t": "3Q26F preview, all eyes on funding cost"
+},
+{
+"d": "2026-10-01",
+"h": "CGS International",
+"co": "Indonesia Consumer Staples",
+"f": "Indonesia Consumer Staples",
+"k": "sector",
+"t": "The Farmer Tracker Sep 2026"
+},
+{
+"d": "2026-10-01",
+"h": "CGS International",
+"co": "Indonesia Macro",
+"f": "Indonesia Macro",
+"k": "macro",
+"t": "Hidden inflation and sign of softer economy"
+},
+{
+"d": "2026-10-01",
+"h": "BNI Sekuritas",
+"co": "Indonesia Strategy",
+"f": "Indonesia Strategy",
+"k": "strategy",
+"t": "Back onto the well-trodden path"
+},
+{
+"d": "2026-10-01",
+"h": "BNI Sekuritas",
+"co": "Indonesia Strategy",
+"f": "Indonesia Strategy",
+"k": "strategy",
+"t": "Foreign appetite returns, albeit not yet on equities"
+},
+{
+"d": "2026-10-01",
+"h": "BNI Sekuritas",
+"co": "Indonesia Strategy",
+"f": "Indonesia Strategy",
+"k": "strategy",
+"t": "Government considers raising PTKP after a decade"
+},
+{
+"d": "2026-09-30",
+"h": "Maybank",
+"co": "Bank Syariah Indonesia",
+"f": "Bank Syariah Indonesia",
+"k": "company",
+"t": "Fees drive growth",
+"action": "maintain",
+"rating": "BUY",
+"tp": 2825.0,
+"tk": "BRIS"
+},
+{
+"d": "2026-09-30",
+"h": "Maybank",
+"co": "Dayamitra Telekomunikasi",
+"f": "Dayamitra Telekomunikasi",
+"k": "company",
+"t": "Profitable, but growth limited",
+"action": "maintain",
+"rating": "BUY",
+"tp": 550.0,
+"tk": "MTEL"
+},
+{
+"d": "2026-09-30",
+"h": "CGS International",
+"co": "Bank Syariah Indonesia",
+"f": "Bank Syariah Indonesia",
+"k": "company",
+"t": "Rights issue to meet free-float requirements",
+"action": "maintain",
+"rating": "ADD",
+"tp": 2600.0,
+"tk": "BRIS"
+},
+{
+"d": "2026-09-29",
+"h": "Nomura",
+"co": "Amman Mineral Internasional",
+"f": "Amman Mineral Internasional",
+"k": "company",
+"t": "Upgrade gold concentrate production guidance",
+"action": "maintain",
+"rating": "BUY",
+"tp": 6400.0,
+"tk": "AMMN"
+},
+{
+"d": "2026-09-29",
+"h": "Maybank",
+"co": "Merdeka Copper Gold",
+"f": "Merdeka Copper Gold",
+"k": "company",
+"t": "Entering a stronger earnings phase",
+"action": "maintain",
+"rating": "BUY",
+"tp": 3800.0,
+"tk": "MDKA"
+},
+{
+"d": "2026-09-29",
+"h": "JPMorgan",
+"co": "Indonesia Coal",
+"f": "Indonesia Coal",
+"k": "sector",
+"t": "New regulation on mining contracting, negative for ADRO and slightly positive for UNTR"
+},
+{
+"d": "2026-09-29",
+"h": "CLSA",
+"co": "GoTo Gojek Tokopedia",
+"f": "GoTo Gojek Tokopedia",
+"k": "company",
+"t": "What is the floor value",
+"rating": "O-PF",
+"tp": 70.0,
+"tk": "GOTO"
+},
+{
+"d": "2026-09-29",
+"h": "CLSA",
+"co": "Indonesia Consumer Staples",
+"f": "Indonesia Consumer Staples",
+"k": "sector",
+"t": "Indonesia back on investors' radar with quality and value names in focus"
+},
+{
+"d": "2026-09-29",
+"h": "CLSA",
+"co": "Indonesia Strategy",
+"f": "Indonesia Strategy",
+"k": "strategy",
+"t": "IF26 wrap"
+},
+{
+"d": "2026-09-28",
+"h": "Nomura",
+"co": "Bank Rakyat Indonesia",
+"f": "Bank Rakyat Indonesia",
+"k": "company",
+"t": "Aug-26 results",
+"action": "maintain",
+"rating": "BUY",
+"tp": 4500.0,
+"tk": "BBRI"
+},
+{
+"d": "2026-09-28",
+"h": "Nomura",
+"co": "Bank Syariah Indonesia",
+"f": "Bank Syariah Indonesia",
+"k": "company",
+"t": "Aug-26 results",
+"action": "maintain",
+"rating": "BUY",
+"tp": 3250.0,
+"tk": "BRIS"
+},
+{
+"d": "2026-09-28",
+"h": "CGS International",
+"co": "Indonesia Plantations",
+"f": "Indonesia Plantations",
+"k": "sector",
+"t": "Biodiesel uptake supports further destocking"
+},
+{
+"d": "2026-09-25",
+"h": "CLSA",
+"co": "Indonesia Banks",
+"f": "Indonesia Banks",
+"k": "sector",
+"t": "First loan instalment for Red-White Cooperatives"
+},
+{
+"d": "2026-09-25",
+"h": "CLSA",
+"co": "Jasuindo Tiga Perkasa",
+"f": "Jasuindo Tiga Perkasa",
+"k": "company",
+"t": "Security printing solutions",
+"rating": "NOT RATED",
+"tk": "JTPE"
+},
+{
+"d": "2026-09-25",
+"h": "CGS International",
+"co": "Indonesia Strategy",
+"f": "Indonesia Strategy",
+"k": "strategy",
+"t": "Alpha - 4Q26F outlook, Entering choppy waters"
+},
+{
+"d": "2026-09-25",
+"h": "CGS International",
+"co": "Siloam International Hospitals",
+"f": "Siloam International Hospitals",
+"k": "company",
+"t": "Acquires 5 hospitals as part of first stage",
+"action": "maintain",
+"rating": "HOLD",
+"tp": 2500.0,
+"tk": "SILO"
+},
+{
+"d": "2026-09-25",
+"h": "CGS International",
+"co": "Timah",
+"f": "Timah",
+"k": "company",
+"t": "Two drivers, one direction, FY26F upside",
+"action": "maintain",
+"rating": "ADD",
+"tp": 5500.0,
+"tk": "TINS"
+},
+{
+"d": "2026-09-24",
+"h": "Maybank",
+"co": "Amman Mineral Internasional",
+"f": "Amman Mineral Internasional",
+"k": "company",
+"t": "Recovery on track",
+"action": "maintain",
+"rating": "BUY",
+"tp": 5800.0,
+"ptp": 5500.0,
+"tk": "AMMN"
+},
+{
+"d": "2026-09-24",
+"h": "Maybank",
+"co": "Medco Energi Internasional",
+"f": "Medco Energi Internasional",
+"k": "company",
+"t": "Two earnings streams",
+"action": "maintain",
+"rating": "BUY",
+"tp": 2500.0,
+"tk": "MEDC"
+},
+{
+"d": "2026-09-24",
+"h": "JPMorgan",
+"co": "Barito Pacific",
+"f": "Barito Pacific",
+"k": "company",
+"t": "Golden age of refining, but high valuation starting point, N on TPIA and UW on BRPT",
+"tp": 1170.0,
+"tk": "BRPT"
+},
+{
+"d": "2026-09-24",
+"h": "CLSA",
+"co": "Indonesia Macro",
+"f": "Indonesia Macro",
+"k": "macro",
+"t": "Indonesia Policy Decision, Expected hold and higher hedging"
+},
+{
+"d": "2026-09-23",
+"h": "Nomura",
+"co": "Indonesia Macro",
+"f": "Indonesia Macro",
+"k": "macro",
+"t": "BI continues to hold its ground, for now"
+},
+{
+"d": "2026-09-23",
+"h": "Nomura",
+"co": "Indonesia Plantations",
+"f": "Indonesia Plantations",
+"k": "sector",
+"t": "Regulatory overhang lifts as draft bill softens"
+},
+{
+"d": "2026-09-23",
+"h": "Maybank",
+"co": "Indonesia Real Estate",
+"f": "Indonesia Real Estate",
+"k": "sector",
+"t": "Indonesia's Agrarian Reform Law passed"
+},
+{
+"d": "2026-09-23",
+"h": "JPMorgan",
+"co": "Indonesia Macro",
+"f": "Indonesia Macro",
+"k": "macro",
+"t": "BI leans on non-rate tools for now - We maintain our forecast for another 25bp hike in December"
+},
+{
+"d": "2026-09-23",
+"h": "CGS International",
+"co": "Indonesia Macro",
+"f": "Indonesia Macro",
+"k": "macro",
+"t": "BI holds, previous hikes provide headroom"
+},
+{
+"d": "2026-09-23",
+"h": "CGS International",
+"co": "Mayora Indah",
+"f": "Mayora Indah",
+"k": "company",
+"t": "A challenging Philippine export market",
+"action": "downgrade",
+"prev": "ADD",
+"rating": "HOLD",
+"ptp": 2170.0,
+"tp": 1540.0,
+"tk": "MYOR"
+},
+{
+"d": "2026-09-22",
+"h": "JPMorgan",
+"co": "Alamtri Minerals Indonesia",
+"f": "Alamtri Minerals Indonesia",
+"k": "company",
+"t": "Risks appear priced in, stay OW",
+"rating": "OW",
+"tp": 2230.0,
+"ptp": 2250.0,
+"tk": "ADMR"
+},
+{
+"d": "2026-09-18",
+"h": "CGS International",
+"co": "Indonesia Macro",
+"f": "Indonesia Macro",
+"k": "macro",
+"t": "Stable fiscal deficit, policy execution in focus"
+},
+{
+"d": "2026-09-17",
+"h": "Maybank",
+"co": "Indonesia Autos",
+"f": "Indonesia Autos",
+"k": "sector",
+"t": "Rising auto demand meets intensifying EV competition"
+},
+{
+"d": "2026-09-17",
+"h": "Maybank",
+"co": "Summarecon Agung",
+"f": "Summarecon Agung",
+"k": "company",
+"t": "Governance overhang, fundamentals unchanged",
+"action": "maintain",
+"rating": "BUY",
+"tp": 330.0,
+"tk": "SMRA"
+},
+{
+"d": "2026-09-17",
+"h": "CLSA",
+"co": "Indonesia Strategy",
+"f": "Indonesia Strategy",
+"k": "strategy",
+"t": "Boots on the ground"
+},
+{
+"d": "2026-09-16",
+"h": "Maybank",
+"co": "Bank Central Asia",
+"f": "Bank Central Asia",
+"k": "company",
+"t": "Slow but steady",
+"action": "maintain",
+"rating": "BUY",
+"tp": 8800.0,
+"tk": "BBCA"
+},
+{
+"d": "2026-09-16",
+"h": "CLSA",
+"co": "Indonesia Banks",
+"f": "Indonesia Banks",
+"k": "sector",
+"t": "NIM pressure (except BCA) in 3Q26"
+},
+{
+"d": "2026-09-16",
+"h": "CLSA",
+"co": "Indonesia Metals",
+"f": "Indonesia Metals",
+"k": "sector",
+"t": "Sweet smelt of success, Shared interests unlock value across commodities"
+},
+{
+"d": "2026-09-16",
+"h": "CLSA",
+"co": "Jasa Marga",
+"f": "Jasa Marga",
+"k": "company",
+"t": "Toll road season",
+"rating": "HC O-PF",
+"tp": 5100.0,
+"tk": "JSMR"
+},
+{
+"d": "2026-07-03",
+"h": "Maybank",
+"co": "Indonesia Macro",
+"f": "Indonesia Macro",
+"k": "macro",
+"t": "ASEAN Economics 2H 2026, The Fog is Lifting"
+}
+]
+}

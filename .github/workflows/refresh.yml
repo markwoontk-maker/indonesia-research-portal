@@ -31,7 +31,8 @@ jobs:
           if [ "${{ github.event.schedule }}" = "15 13,23 * * *" ] || [ "${{ github.event.schedule }}" = "15 5 * * 0,6" ]; then
             python scripts/refresh.py news
           else
-            python scripts/refresh.py idx yahoo news build
+            # IDX (idx.co.id) 403s GitHub runners: IDX files are pushed by scripts/local-refresh.ps1 on the PC
+            python scripts/refresh.py yahoo news build
           fi
       - name: Commit
         run: |

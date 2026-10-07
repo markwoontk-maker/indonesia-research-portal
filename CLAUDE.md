@@ -9,7 +9,7 @@ Sister site to `India-Research-Portal`. It uses the same look and the same tabs,
 - **Always commit + push on any change**, so the live site stays current.
 
 ## Data pipeline (all free, keyless)
-`scripts/refresh.py [idx] [yahoo] [news] [build]` runs in GitHub Actions (`.github/workflows/refresh.yml`): every 30 min, 08:05-18:35 WIB on weekdays, plus news-only runs on evenings and weekends. Each run commits `data/`.
+**idx.co.id returns 403 to GitHub Actions runners**, so the `idx` step (plus the research sync) runs on the PC via `scripts/local-refresh.ps1` (Task Scheduler) and pushes the raw IDX files. `scripts/refresh.py yahoo news build` runs in GitHub Actions (`.github/workflows/refresh.yml`): every 30 min, 08:05-18:35 WIB on weekdays, plus news-only runs on evenings and weekends. Each run commits `data/`.
 - **IDX** (`idx.co.id/primary/...`, behind Cloudflare). Fetched with `curl_cffi` Chrome impersonation; plain requests and curl get a 403.
   - `TradingSummary/GetStockSummary?date=YYYYMMDD` returns every stock's close, value and **ForeignBuy/ForeignSell (in shares)**. Raw files are stored as `data/idx/YYYY/YYYYMMDD.csv.gz`, backfilled from 1 Oct 2025.
   - Foreign net value = (fbuy − fsell) × VWAP, where VWAP = value/volume, summed over all boards. Check: 6 Oct 2026 came to −Rp601bn vs −Rp630bn in the press.
@@ -21,7 +21,7 @@ Sister site to `India-Research-Portal`. It uses the same look and the same tabs,
 - `build` derives `stocks.json`, `flows.json` (daily net, per-sector daily, top buy/sell windows), `market.json` (breadth) and `strategy_perf.json`.
 
 ## Local-only pieces
-- **Research tab**: `scripts/build_research.py` (uv + pymupdf) reads `Desktop\Indonesia Related Reports\<folder>\[YYMMDD] [Broker] Name - Title.pdf`, auto-extracts rating/TP from pages 1-2 and writes `data/research.json`. The PDFs are never published. `scripts/sync-research.ps1` runs it, then commits and pushes. It is meant to run daily after the 12:00 Indonesia sorter task. Tickers come from `~\.claude\sorting-folder-rename\indo-tickers.json`.
+- **Research tab**: `scripts/build_research.py` (uv + pymupdf) reads `Desktop\Indonesia Related Reports\<folder>\[YYMMDD] [Broker] Name - Title.pdf`, auto-extracts rating/TP from pages 1-2 and writes `data/research.json`. The PDFs are never published. `scripts/local-refresh.ps1` runs it together with the IDX fetch, then commits and pushes. Tickers come from `~\.claude\sorting-folder-rename\indo-tickers.json`.
 - **Strategy tab**: `data/strategy.json` is curated by hand from the house strategy PDFs (stance, JCI target, points, top picks with TPs, adds/removes). Update it when a new strategy note lands. Pick performance is computed automatically.
 
 ## Gotchas

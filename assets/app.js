@@ -314,13 +314,17 @@ function renderOverview() {
 // ================================================================== NEWS
 let newsBucket = 'ALL';
 function renderNews() {
-  const n = D.news; if (!n) { $('newsList').innerHTML = '<li class="empty">News feed unavailable.</li>'; return; }
+  const n = D.news; if (!n) { $('newsList').innerHTML = '<tr><td class="empty">News feed unavailable.</td></tr>'; return; }
   const keys = Object.keys(n.b);
   seg($('newsSeg'), [{ k: 'ALL', l: 'All' }, ...keys.map((k) => ({ k, l: n.labels[k] }))], newsBucket, (k) => { newsBucket = k; renderNews(); });
-  let items = newsBucket === 'ALL' ? keys.flatMap((k) => n.b[k].slice(0, k === 'FLOW' ? 6 : 12)) : n.b[newsBucket];
-  items = [...items].sort((a, b) => (a.d < b.d ? 1 : -1));
-  $('newsSub').textContent = `Google News · Indonesia · refreshed ${ago(n.updated)} · ${items.length} headlines${newsBucket === 'FLOW' ? ' · Bahasa Indonesia sources' : ''}`;
-  $('newsList').innerHTML = items.map((x) => `<li><span class="news-tag">${esc(n.labels[x.c] || x.c)}</span><div class="news-body"><a href="${esc(x.l)}" target="_blank" rel="noopener">${esc(x.t)}</a><div class="news-meta">${esc(x.s)} · ${ago(x.d)}</div></div></li>`).join('') || '<li class="empty">No headlines in this bucket.</li>';
+  // One row per headline, grouped by type (newest first within each type).
+  const groups = (newsBucket === 'ALL' ? keys : [newsBucket]).map((k) => ({ k, items: [...n.b[k]].slice(0, newsBucket === 'ALL' ? (k === 'FLOW' ? 6 : 12) : 50).sort((a, b) => (a.d < b.d ? 1 : -1)) })).filter((g) => g.items.length);
+  const total = groups.reduce((a, g) => a + g.items.length, 0);
+  $('newsSub').textContent = `Google News · Indonesia · refreshed ${ago(n.updated)} · ${total} headlines${newsBucket === 'FLOW' ? ' · Bahasa Indonesia sources' : ''}`;
+  $('newsList').innerHTML = groups.length
+    ? '<tr><th>Title</th><th>Source</th><th class="r">Time</th></tr>' + groups.map((g) => `<tr class="news-grp"><td colspan="3">${esc(n.labels[g.k] || g.k)} <span>${g.items.length}</span></td></tr>` +
+        g.items.map((x) => `<tr><td class="news-t"><a href="${esc(x.l)}" target="_blank" rel="noopener" title="${esc(x.t)}">${esc(x.t)}</a></td><td class="news-s" title="${esc(x.s)}">${esc(x.s)}</td><td class="r news-time">${ago(x.d)}</td></tr>`).join('')).join('')
+    : '<tr><td class="empty">No headlines in this bucket.</td></tr>';
   const mac = (D.research ? D.research.notes : []).filter((x) => (x.k === 'macro' || x.k === 'strategy') && daysAgo(x.d) <= 21);
   $('macroNotes').innerHTML = mac.length ? mac.map(noteRow).join('') : '<div class="empty">No macro or strategy notes in the last 3 weeks.</div>';
 }

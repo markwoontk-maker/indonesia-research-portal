@@ -41,16 +41,26 @@ def jload(name, default=None):
     except FileNotFoundError:
         return default
 
+HEALTH = {}   # host -> {"ok": n, "fail": n, "last": status}
+
+def _note(url, status):
+    host = url.split("/")[2]
+    h = HEALTH.setdefault(host, {"ok": 0, "fail": 0})
+    h["ok" if status == 200 else "fail"] += 1
+    h["last"] = status
+
 def get(url, tries=3, **kw):
     for i in range(tries):
         try:
             r = S.get(url, timeout=40, **kw)
+            _note(url, r.status_code)
             if r.status_code == 200:
                 return r
             print(f"  HTTP {r.status_code} {url[:110]}")
             if r.status_code in (404,):
                 return None
         except Exception as e:
+            _note(url, "error")
             print(f"  ERR {e} {url[:110]}")
         time.sleep(2 + 3 * i)
     return None
@@ -528,3 +538,8 @@ if __name__ == "__main__":
     if "yahoo" in jobs: refresh_yahoo()
     if "news" in jobs: refresh_news()
     if "build" in jobs: build()
+    if HEALTH:
+        health = jload("health.json", {}) or {}
+        for host, h in HEALTH.items():
+            health[host] = {**h, "at": now_wib().isoformat(timespec="minutes")}
+        jdump("health.json", health)

@@ -1,6 +1,26 @@
 {
 "notes": [
 {
+"d": "2026-10-08",
+"h": "UOB Kay Hian",
+"co": "Solusi Sinergi Digital",
+"f": "Solusi Sinergi Digital",
+"k": "company",
+"t": "Solid Underlying With Attractive Valuation",
+"rating": "NOT RATED",
+"tk": "WIFI"
+},
+{
+"d": "2026-10-07",
+"h": "Unknown",
+"co": "Unknown",
+"f": "Unknown",
+"k": "company",
+"t": "╖ Potential re-rating from a low base. GOTO has fallen from Rp50 to",
+"tp": 48.0,
+"tk": "ARTO"
+},
+{
 "d": "2026-10-07",
 "h": "UOB Kay Hian",
 "co": "Energi Mega Persada",
@@ -11,6 +31,26 @@
 "rating": "BUY",
 "tp": 1870.0,
 "tk": "ENRG"
+},
+{
+"d": "2026-10-07",
+"h": "Maybank",
+"co": "Mulia Boga Raya",
+"f": "Mulia Boga Raya",
+"k": "company",
+"t": "Aiming to improve ESG score",
+"action": "maintain",
+"rating": "BUY",
+"tp": 850.0,
+"tk": "KEJU"
+},
+{
+"d": "2026-10-07",
+"h": "CGS International",
+"co": "Indonesia Consumer Discretionary",
+"f": "Indonesia Consumer Discretionary",
+"k": "sector",
+"t": "4Q26-27 stimulus, more for mid and upper"
 },
 {
 "d": "2026-10-06",
@@ -34,6 +74,22 @@
 "rating": "O-PF",
 "tp": 900.0,
 "tk": "SUPA"
+},
+{
+"d": "2026-10-05",
+"h": "Unknown",
+"co": "Indonesia Banks",
+"f": "Indonesia Banks",
+"k": "sector",
+"t": "╖ Investors are focused on state-contractor restructuring (see our"
+},
+{
+"d": "2026-10-05",
+"h": "Unknown",
+"co": "Indonesia Consumer Staples",
+"f": "Indonesia Consumer Staples",
+"k": "sector",
+"t": "╖ Headline company exposure likely overstates actual earnings risk"
 },
 {
 "d": "2026-10-05",
@@ -68,6 +124,14 @@
 "t": "Group meeting insights from Samudera (SMDR IJ, N-R)",
 "rating": "NOT RATED",
 "tk": "SMDR"
+},
+{
+"d": "2026-10-02",
+"h": "Unknown",
+"co": "Indonesia Strategy",
+"f": "Indonesia Strategy",
+"k": "strategy",
+"t": "╖ JCI did not extend gains for the third month as it corrected 7% MoM"
 },
 {
 "d": "2026-10-02",
@@ -134,6 +198,14 @@
 "tp": 2270.0,
 "ptp": 2170.0,
 "tk": "MEDC"
+},
+{
+"d": "2026-10-01",
+"h": "Unknown",
+"co": "Indonesia Metals",
+"f": "Indonesia Metals",
+"k": "sector",
+"t": "order, INCO MDKA MBMA ANTM EMAS"
 },
 {
 "d": "2026-10-01",

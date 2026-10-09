@@ -1,6 +1,50 @@
 {
 "notes": [
 {
+"d": "2026-10-09",
+"h": "Unknown",
+"co": "Indonesia Macro",
+"f": "Indonesia Macro",
+"k": "macro",
+"t": "JCI weak despite CPI, trade lifts, MTEL IJ TP cut"
+},
+{
+"d": "2026-10-09",
+"h": "Nomura",
+"co": "Indonesia Autos",
+"f": "Indonesia Autos",
+"k": "sector",
+"t": "Off low base thanks to commercial vehicle"
+},
+{
+"d": "2026-10-09",
+"h": "Nomura",
+"co": "Indonesia Consumer Discretionary",
+"f": "Indonesia Consumer Discretionary",
+"k": "sector",
+"t": "3Q26F preview"
+},
+{
+"d": "2026-10-09",
+"h": "CLSA",
+"co": "Indonesia Infra",
+"f": "Indonesia Infra",
+"k": "sector",
+"t": "Insights from our group meeting with BNBR IJ (N-R)"
+},
+{
+"d": "2026-10-09",
+"h": "CGS International",
+"co": "Amman Mineral Internasional",
+"f": "Amman Mineral Internasional",
+"k": "company",
+"t": "Entering its most profitable mining phase",
+"action": "initiate",
+"rating": "ADD",
+"tp": 7000.0,
+"tk": "AMMN"
+},
+{
 "d": "2026-10-08",
 "h": "UOB Kay Hian",
 "co": "Solusi Sinergi Digital",
@@ -9,6 +53,34 @@
 "t": "Solid Underlying With Attractive Valuation",
 "rating": "NOT RATED",
 "tk": "WIFI"
+},
+{
+"d": "2026-10-08",
+"h": "Nomura",
+"co": "Indonesia Telecom",
+"f": "Indonesia Telecom",
+"k": "sector",
+"t": "3Q26F results preview"
+},
+{
+"d": "2026-10-08",
+"h": "Maybank",
+"co": "Indonesia Telecom",
+"f": "Indonesia Telecom",
+"k": "sector",
+"t": "9M26 preview, potentially stronger net income"
+},
+{
+"d": "2026-10-08",
+"h": "CGS International",
+"co": "Timah",
+"f": "Timah",
+"k": "company",
+"t": "Still shining into year end",
+"action": "maintain",
+"rating": "ADD",
+"tp": 5500.0,
+"tk": "TINS"
 },
 {
 "d": "2026-10-07",
@@ -637,6 +709,18 @@
 "t": "2Q26 results in line, more cathode to come",
 "tp": 7100.0,
 "tk": "AMMN"
+},
+{
+"d": "2026-09-18",
+"h": "Nomura",
+"co": "Unknown",
+"f": "Unknown",
+"k": "company",
+"t": "Indonesia data center, in the early innings of growth",
+"action": "initiate",
+"rating": "BUY",
+"tp": 3700.0,
+"tk": "DCII"
 },
 {
 "d": "2026-09-18",

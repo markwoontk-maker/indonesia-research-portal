@@ -1,12 +1,82 @@
 {
 "notes": [
 {
+"d": "2026-10-12",
+"h": "Unknown",
+"co": "Midi Utama Indonesia",
+"f": "Midi Utama Indonesia",
+"k": "company",
+"t": "╖ The update reinforces the broader recovery across the AMRT group",
+"tp": 2100.0,
+"tk": "MIDI"
+},
+{
+"d": "2026-10-12",
+"h": "Unknown",
+"co": "Unknown",
+"f": "Unknown",
+"k": "company",
+"t": "╖ Medco Energi agreed to acquire a 10% non-operating interest in four",
+"tp": 2000.0,
+"tk": "MEDC"
+},
+{
+"d": "2026-10-12",
+"h": "UOB Kay Hian",
+"co": "Sarana Menara Nusantara",
+"f": "Sarana Menara Nusantara",
+"k": "company",
+"t": "5G Densification And Potential DC Rollouts Offer Upside",
+"action": "maintain",
+"rating": "BUY",
+"tp": 530.0,
+"tk": "TOWR"
+},
+{
+"d": "2026-10-11",
+"h": "Nomura",
+"co": "Indonesia Banks",
+"f": "Indonesia Banks",
+"k": "sector",
+"t": "Widening gap"
+},
+{
+"d": "2026-10-09",
+"h": "Unknown",
+"co": "Indonesia Coal",
+"f": "Indonesia Coal",
+"k": "sector",
+"t": "╖ Coal sentiment is turning more constructive. Macquarie Commodities"
+},
+{
 "d": "2026-10-09",
 "h": "Unknown",
 "co": "Indonesia Macro",
 "f": "Indonesia Macro",
 "k": "macro",
 "t": "JCI weak despite CPI, trade lifts, MTEL IJ TP cut"
+},
+{
+"d": "2026-10-09",
+"h": "Unknown",
+"co": "Unknown",
+"f": "Unknown",
+"k": "company",
+"t": "╖ Strong industry sales momentum sustained in Sept-26. 4W Sept",
+"tp": 5900.0,
+"tk": "ASII"
+},
+{
+"d": "2026-10-09",
+"h": "Nomura",
+"co": "Bank Mandiri",
+"f": "Bank Mandiri",
+"k": "company",
+"t": "Jhonlin share pledge",
+"action": "maintain",
+"rating": "BUY",
+"tp": 6000.0,
+"tk": "BMRI"
 },
 {
 "d": "2026-10-09",
@@ -23,6 +93,24 @@
 "f": "Indonesia Consumer Discretionary",
 "k": "sector",
 "t": "3Q26F preview"
+},
+{
+"d": "2026-10-09",
+"h": "Maybank",
+"co": "Indonesia Strategy",
+"f": "Indonesia Strategy",
+"k": "strategy",
+"t": "Sep'26 Equity Fund Flows, JCI retreats on risk-off sentiment"
+},
+{
+"d": "2026-10-09",
+"h": "CLSA",
+"co": "Cisarua Mountain Dairy",
+"f": "Cisarua Mountain Dairy",
+"k": "company",
+"t": "New products, the free meal program effect and industry consolidation",
+"tp": 6200.0,
+"tk": "CMRY"
 },
 {
 "d": "2026-10-09",
@@ -43,6 +131,14 @@
 "rating": "ADD",
 "tp": 7000.0,
 "tk": "AMMN"
+},
+{
+"d": "2026-10-09",
+"h": "CGS International",
+"co": "Indonesia Plantations",
+"f": "Indonesia Plantations",
+"k": "sector",
+"t": "Exports and biodiesel accelerate destocking"
 },
 {
 "d": "2026-10-08",

@@ -1,6 +1,46 @@
 {
 "notes": [
 {
+"d": "2026-10-13",
+"h": "Unknown",
+"co": "Indonesia Strategy",
+"f": "Indonesia Strategy",
+"k": "strategy",
+"t": "╖ Following recent investor queries and our meeting with the MoF, we"
+},
+{
+"d": "2026-10-13",
+"h": "UOB Kay Hian",
+"co": "Aneka Tambang",
+"f": "Aneka Tambang",
+"k": "company",
+"t": "Margins Recovering, Growth Pipeline Intact",
+"action": "maintain",
+"rating": "BUY",
+"tp": 4100.0,
+"tk": "ANTM"
+},
+{
+"d": "2026-10-13",
+"h": "Maybank",
+"co": "Medco Energi Internasional",
+"f": "Medco Energi Internasional",
+"k": "company",
+"t": "Buying into Kutai's long-life gas hub",
+"action": "maintain",
+"rating": "BUY",
+"tp": 2500.0,
+"tk": "MEDC"
+},
+{
+"d": "2026-10-13",
+"h": "JPMorgan",
+"co": "ASEAN Thematic Strategy",
+"f": "ASEAN Thematic Strategy",
+"k": "company",
+"t": "Stability anchors for a fragmented global supply chain"
+},
+{
 "d": "2026-10-12",
 "h": "Unknown",
 "co": "Midi Utama Indonesia",
@@ -31,6 +71,32 @@
 "rating": "BUY",
 "tp": 530.0,
 "tk": "TOWR"
+},
+{
+"d": "2026-10-12",
+"h": "CLSA",
+"co": "Initiating coverage",
+"f": "Initiating coverage",
+"k": "company",
+"t": "Gold miner with high growth and reserve upside potential",
+"tp": 11000.0,
+"tk": "EMAS"
+},
+{
+"d": "2026-10-12",
+"h": "CGS International",
+"co": "Indonesia Macro",
+"f": "Indonesia Macro",
+"k": "macro",
+"t": "Powering consumption through policy"
+},
+{
+"d": "2026-10-12",
+"h": "CGS International",
+"co": "Unknown",
+"f": "Unknown",
+"k": "company",
+"t": "AI-ready DCs, Six building blocks to win race"
 },
 {
 "d": "2026-10-11",

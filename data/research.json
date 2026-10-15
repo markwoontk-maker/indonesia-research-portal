@@ -1,12 +1,132 @@
 {
 "notes": [
 {
+"d": "2026-10-15",
+"h": "UOB Kay Hian",
+"co": "Buana Lintas Lautan",
+"f": "Buana Lintas Lautan",
+"k": "company",
+"t": "Bigger Fleet, Bullish Rates",
+"action": "maintain",
+"rating": "BUY",
+"tp": 780.0,
+"tk": "BULL"
+},
+{
+"d": "2026-10-15",
+"h": "Nomura",
+"co": "Indonesia Banks",
+"f": "Indonesia Banks",
+"k": "sector",
+"t": "3Q26F bank-only results preview"
+},
+{
+"d": "2026-10-14",
+"h": "Unknown",
+"co": "Unknown",
+"f": "Unknown",
+"k": "company",
+"t": "Growing Without Capex, Initiate BUY",
+"action": "initiate",
+"rating": "BUY",
+"tp": 1200.0,
+"tk": "POWR"
+},
+{
+"d": "2026-10-14",
+"h": "Unknown",
+"co": "Unknown",
+"f": "Unknown",
+"k": "company",
+"t": "Pricing Room Shrinks, Volume Pressure Persists",
+"action": "maintain",
+"rating": "N",
+"tk": "HMSP"
+},
+{
+"d": "2026-10-14",
+"h": "Unknown",
+"co": "Unknown",
+"f": "Unknown",
+"k": "company",
+"t": "╖ The smell of sulphur. While HPAL ramp-up supports strong volume",
+"action": "downgrade",
+"rating": "N",
+"tp": 840.0,
+"tk": "HRUM"
+},
+{
+"d": "2026-10-14",
+"h": "UOB Kay Hian",
+"co": "KB Bukopin",
+"f": "KB Bukopin",
+"k": "company",
+"t": "Operating Recovery Gains Traction, Legacy NPLs Remain A Hurdle",
+"rating": "NOT RATED",
+"tk": "BBKP"
+},
+{
+"d": "2026-10-14",
+"h": "Maybank",
+"co": "Indonesia Strategy",
+"f": "Indonesia Strategy",
+"k": "strategy",
+"t": "Macro headwinds disconnect"
+},
+{
+"d": "2026-10-14",
+"h": "JPMorgan",
+"co": "ASEAN & China Autos",
+"f": "ASEAN & China Autos",
+"k": "company",
+"t": "More plugs, more plants, more EVs"
+},
+{
+"d": "2026-10-14",
+"h": "JPMorgan",
+"co": "Indonesia Telecom",
+"f": "Indonesia Telecom",
+"k": "sector",
+"t": "3Q26 earnings preview, Headline earnings could be soft, but stocks should move on ARPU trends"
+},
+{
+"d": "2026-10-14",
+"h": "CLSA",
+"co": "Indonesia Autos",
+"f": "Indonesia Autos",
+"k": "sector",
+"t": "Testing EV resilience, latest EV trends in 9M26"
+},
+{
 "d": "2026-10-13",
 "h": "Unknown",
 "co": "Indonesia Strategy",
 "f": "Indonesia Strategy",
 "k": "strategy",
 "t": "╖ Following recent investor queries and our meeting with the MoF, we"
+},
+{
+"d": "2026-10-13",
+"h": "Unknown",
+"co": "Timah",
+"f": "Timah",
+"k": "company",
+"t": "Soldering Growth Momentum, Keep BUY",
+"action": "maintain",
+"rating": "BUY",
+"tk": "TINS"
+},
+{
+"d": "2026-10-13",
+"h": "Unknown",
+"co": "Unknown",
+"f": "Unknown",
+"k": "company",
+"t": "OKI - An Earnings Catalyst Amid Softer Pulp Prices",
+"action": "maintain",
+"rating": "BUY",
+"tp": 12700.0,
+"tk": "INKP"
 },
 {
 "d": "2026-10-13",
@@ -22,6 +142,31 @@
 },
 {
 "d": "2026-10-13",
+"h": "Nomura",
+"co": "Industri Jamu dan Farmasi Sido Muncul",
+"f": "Industri Jamu dan Farmasi Sido Muncul",
+"k": "company",
+"t": "Inventory reset complete Earnings visibility improves post inventory normalization",
+"action": "maintain",
+"rating": "BUY",
+"tp": 600.0,
+"tk": "SIDO"
+},
+{
+"d": "2026-10-13",
+"h": "Maybank",
+"co": "Bukalapak",
+"f": "Bukalapak",
+"k": "company",
+"t": "Trading at discount to cash",
+"action": "upgrade",
+"rating": "BUY",
+"prev": "HOLD",
+"tp": 140.0,
+"tk": "BUKA"
+},
+{
+"d": "2026-10-13",
 "h": "Maybank",
 "co": "Medco Energi Internasional",
 "f": "Medco Energi Internasional",
@@ -31,6 +176,19 @@
 "rating": "BUY",
 "tp": 2500.0,
 "tk": "MEDC"
+},
+{
+"d": "2026-10-13",
+"h": "Maybank",
+"co": "Mitra Adiperkasa",
+"f": "Mitra Adiperkasa",
+"k": "company",
+"t": "New growth booster",
+"action": "maintain",
+"rating": "BUY",
+"tp": 1750.0,
+"ptp": 1950.0,
+"tk": "MAPI"
 },
 {
 "d": "2026-10-13",
@@ -243,6 +401,29 @@
 "rating": "ADD",
 "tp": 5500.0,
 "tk": "TINS"
+},
+{
+"d": "2026-10-07",
+"h": "Unknown",
+"co": "Kalbe Farma",
+"f": "Kalbe Farma",
+"k": "company",
+"t": "Weathering The Headwinds, Stay BUY",
+"action": "maintain",
+"rating": "BUY",
+"tk": "KLBF"
+},
+{
+"d": "2026-10-07",
+"h": "Unknown",
+"co": "Unknown",
+"f": "Unknown",
+"k": "company",
+"t": "Weaker Demand To Cap Earnings Recovery, BUY",
+"action": "maintain",
+"rating": "BUY",
+"tp": 17150.0,
+"tk": "GGRM"
 },
 {
 "d": "2026-10-07",
@@ -983,6 +1164,26 @@
 "tk": "ANTM"
 },
 {
+"d": "2026-09-11",
+"h": "Unknown",
+"co": "Unknown",
+"f": "Unknown",
+"k": "company",
+"t": "Strong Auto Sales Towards The End Of The Year",
+"action": "maintain",
+"rating": "N",
+"tk": "AUTO"
+},
+{
+"d": "2026-09-10",
+"h": "Unknown",
+"co": "Unknown",
+"f": "Unknown",
+"k": "company",
+"t": "Better Margins, But Demand Remains Weak",
+"tk": "HMSP"
+},
+{
 "d": "2026-09-10",
 "h": "Sucor",
 "co": "Aneka Tambang",
@@ -1182,6 +1383,14 @@
 "tk": "AADI"
 },
 {
+"d": "2026-08-18",
+"h": "Unknown",
+"co": "Indonesia Strategy",
+"f": "Indonesia Strategy",
+"k": "strategy",
+"t": "Stocks Covered Rating (Buy-Neutral-Sell), Last 12m Earnings Revision Trend"
+},
+{
 "d": "2026-08-17",
 "h": "CLSA",
 "co": "Indonesia Macro",
@@ -1196,6 +1405,17 @@
 "f": "Indonesia Coal",
 "k": "sector",
 "t": "Brand new day, a higher base for coal prices"
+},
+{
+"d": "2026-08-04",
+"h": "Unknown",
+"co": "Kalbe Farma",
+"f": "Kalbe Farma",
+"k": "company",
+"t": "Raising The Bar, Staying Prudent, Maintain BUY",
+"action": "maintain",
+"rating": "BUY",
+"tk": "KLBF"
 },
 {
 "d": "2026-08-04",
@@ -1317,6 +1537,17 @@
 "tk": "ADRO"
 },
 {
+"d": "2026-05-11",
+"h": "Unknown",
+"co": "Timah",
+"f": "Timah",
+"k": "company",
+"t": "Most Punished, But Not Broken, Upgrade To BUY",
+"action": "upgrade",
+"rating": "BUY",
+"tk": "TINS"
+},
+{
 "d": "2026-05-10",
 "h": "CLSA",
 "co": "Indonesia Metals",
@@ -1397,6 +1628,17 @@
 "tk": "ANTM"
 },
 {
+"d": "2026-04-23",
+"h": "Unknown",
+"co": "HM Sampoerna",
+"f": "HM Sampoerna",
+"k": "company",
+"t": "Margin Recovery Intact, But Downtrading Deepens",
+"action": "maintain",
+"rating": "BUY",
+"tk": "HMSP"
+},
+{
 "d": "2026-04-22",
 "h": "JPMorgan",
 "co": "Indonesia Metals",
@@ -1449,6 +1691,17 @@
 "t": "Divestment of investment in Kestrel Mine",
 "tp": 10500.0,
 "tk": "AADI"
+},
+{
+"d": "2026-04-14",
+"h": "Unknown",
+"co": "Unknown",
+"f": "Unknown",
+"k": "company",
+"t": "Target Price (Return), Price (Market Cap), ESG score, Avg Daily Turnover (IDR-USD)",
+"action": "maintain",
+"rating": "BUY",
+"tk": "TKIM"
 },
 {
 "d": "2026-03-31",
@@ -1621,6 +1874,16 @@
 "f": "Indonesia Metals",
 "k": "sector",
 "t": "Gold outperforms while nickel still weighed"
+},
+{
+"d": "2000-00-00",
+"h": "Unknown",
+"co": "Unknown",
+"f": "Unknown",
+"k": "company",
+"t": "INDONESIA THEMATIC OCT 2026",
+"tp": 5700.0,
+"tk": "DRMA"
 }
 ]
 }

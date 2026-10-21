@@ -1,6 +1,156 @@
 {
 "notes": [
 {
+"d": "2026-11-15",
+"h": "Maybank",
+"co": "Indonesia Coal",
+"f": "Indonesia Coal",
+"k": "sector",
+"t": "The floor has risen"
+},
+{
+"d": "2026-10-20",
+"h": "UOB Kay Hian",
+"co": "Indonesia Strategy",
+"f": "Indonesia Strategy",
+"k": "strategy",
+"t": "Dividend Opportunities, Selectivity And Entry Discipline"
+},
+{
+"d": "2026-10-20",
+"h": "Nomura",
+"co": "Indonesia FMCG",
+"f": "Indonesia FMCG",
+"k": "sector",
+"t": "3Q26F preview, Defensive cash compounders"
+},
+{
+"d": "2026-10-20",
+"h": "CGS International",
+"co": "Telkom Indonesia",
+"f": "Telkom Indonesia",
+"k": "company",
+"t": "Key takeaways from Analyst Day in Batam",
+"action": "maintain",
+"rating": "ADD",
+"tp": 3700.0,
+"tk": "TLKM"
+},
+{
+"d": "2026-10-19",
+"h": "UOB Kay Hian",
+"co": "Indonesia Strategy",
+"f": "Indonesia Strategy",
+"k": "strategy",
+"t": "MSCI Standalone Market Overhang, Follow The Dividends"
+},
+{
+"d": "2026-10-19",
+"h": "Maybank",
+"co": "Telkom Indonesia",
+"f": "Telkom Indonesia",
+"k": "company",
+"t": "Telin, AI to drive bandwidth demand",
+"action": "maintain",
+"rating": "BUY",
+"tp": 3400.0,
+"tk": "TLKM"
+},
+{
+"d": "2026-10-19",
+"h": "JPMorgan",
+"co": "Telkom Indonesia",
+"f": "Telkom Indonesia",
+"k": "company",
+"t": "Looking for yield amid volatility (2)",
+"tk": "TLKM"
+},
+{
+"d": "2026-10-19",
+"h": "JPMorgan",
+"co": "Telkom Indonesia",
+"f": "Telkom Indonesia",
+"k": "company",
+"t": "Looking for yield amid volatility",
+"tk": "TLKM"
+},
+{
+"d": "2026-10-19",
+"h": "CLSA",
+"co": "Indonesia property and malls",
+"f": "Indonesia property and malls",
+"k": "sector",
+"t": "Insights into Indonesia property"
+},
+{
+"d": "2026-10-19",
+"h": "CGS International",
+"co": "Indonesia Consumer Staples",
+"f": "Indonesia Consumer Staples",
+"k": "sector",
+"t": "Wismilak Inti Makmur"
+},
+{
+"d": "2026-10-19",
+"h": "CGS International",
+"co": "Indonesia Strategy",
+"f": "Indonesia Strategy",
+"k": "strategy",
+"t": "Regulators noted positive reform feedback pre-MSCI warning"
+},
+{
+"d": "2026-10-18",
+"h": "CLSA",
+"co": "Indonesia Strategy",
+"f": "Indonesia Strategy",
+"k": "strategy",
+"t": "Surprise warning from MSCI"
+},
+{
+"d": "2026-10-17",
+"h": "JPMorgan",
+"co": "Asean Financials",
+"f": "Asean Financials",
+"k": "company",
+"t": "NIM, MTM, fees and DPS question marks but loans and AQ holding, 3Q preview"
+},
+{
+"d": "2026-10-17",
+"h": "JPMorgan",
+"co": "Indonesia Strategy",
+"f": "Indonesia Strategy",
+"k": "strategy",
+"t": "Potential risk of reclassification to standalone market"
+},
+{
+"d": "2026-10-16",
+"h": "Maybank",
+"co": "Indonesia Strategy",
+"f": "Indonesia Strategy",
+"k": "strategy",
+"t": "MSCI launches consultation on Standalone reclassification"
+},
+{
+"d": "2026-10-16",
+"h": "JPMorgan",
+"co": "Bank Syariah Indonesia",
+"f": "Bank Syariah Indonesia",
+"k": "company",
+"t": "Model Update",
+"rating": "OW",
+"tp": 2050.0,
+"ptp": 2250.0,
+"tk": "BRIS"
+},
+{
+"d": "2026-10-16",
+"h": "CGS International",
+"co": "Indonesia Strategy",
+"f": "Indonesia Strategy",
+"k": "strategy",
+"t": "The final decision on the consultation is due by end-Jun 2027, but MSCI may provide an update before then. The feedback line is open until 30 A"
+},
+{
 "d": "2026-10-15",
 "h": "UOB Kay Hian",
 "co": "Buana Lintas Lautan",
@@ -19,6 +169,14 @@
 "f": "Indonesia Banks",
 "k": "sector",
 "t": "3Q26F bank-only results preview"
+},
+{
+"d": "2026-10-15",
+"h": "CLSA",
+"co": "Indonesia Strategy",
+"f": "Indonesia Strategy",
+"k": "strategy",
+"t": "Commodity boost in 8M26"
 },
 {
 "d": "2026-10-14",

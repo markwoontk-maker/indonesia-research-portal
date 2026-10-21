@@ -19,8 +19,8 @@
 {
 "d": "2026-10-20",
 "h": "Nomura",
-"co": "Indonesia FMCG",
-"f": "Indonesia FMCG",
+"co": "Indonesia Consumer Staples",
+"f": "Indonesia Consumer Staples",
 "k": "sector",
 "t": "3Q26F preview, Defensive cash compounders"
 },
@@ -77,8 +77,8 @@
 {
 "d": "2026-10-19",
 "h": "CLSA",
-"co": "Indonesia property and malls",
-"f": "Indonesia property and malls",
+"co": "Indonesia Real Estate",
+"f": "Indonesia Real Estate",
 "k": "sector",
 "t": "Insights into Indonesia property"
 },
@@ -109,9 +109,9 @@
 {
 "d": "2026-10-17",
 "h": "JPMorgan",
-"co": "Asean Financials",
-"f": "Asean Financials",
-"k": "company",
+"co": "Indonesia Banks",
+"f": "Indonesia Banks",
+"k": "sector",
 "t": "NIM, MTM, fees and DPS question marks but loans and AQ holding, 3Q preview"
 },
 {
@@ -181,37 +181,10 @@
 {
 "d": "2026-10-14",
 "h": "Unknown",
-"co": "Unknown",
-"f": "Unknown",
-"k": "company",
-"t": "Growing Without Capex, Initiate BUY",
-"action": "initiate",
-"rating": "BUY",
-"tp": 1200.0,
-"tk": "POWR"
-},
-{
-"d": "2026-10-14",
-"h": "Unknown",
-"co": "Unknown",
-"f": "Unknown",
-"k": "company",
-"t": "Pricing Room Shrinks, Volume Pressure Persists",
-"action": "maintain",
-"rating": "N",
-"tk": "HMSP"
-},
-{
-"d": "2026-10-14",
-"h": "Unknown",
-"co": "Unknown",
-"f": "Unknown",
-"k": "company",
-"t": "╖ The smell of sulphur. While HPAL ramp-up supports strong volume",
-"action": "downgrade",
-"rating": "N",
-"tp": 840.0,
-"tk": "HRUM"
+"co": "Indonesia Metals",
+"f": "Indonesia Metals",
+"k": "sector",
+"t": "The smell of sulphur, HPAL ramp-up"
 },
 {
 "d": "2026-10-14",
@@ -225,6 +198,26 @@
 },
 {
 "d": "2026-10-14",
+"h": "RHB",
+"co": "Cikarang Listrindo",
+"f": "Cikarang Listrindo",
+"k": "company",
+"t": "Growing Without Capex, Initiate BUY",
+"action": "initiate",
+"rating": "BUY",
+"tp": 1200.0,
+"tk": "POWR"
+},
+{
+"d": "2026-10-14",
+"h": "RHB",
+"co": "Indonesia Consumer Staples",
+"f": "Indonesia Consumer Staples",
+"k": "sector",
+"t": "Pricing Room Shrinks, Volume Pressure Persists"
+},
+{
+"d": "2026-10-14",
 "h": "Maybank",
 "co": "Indonesia Strategy",
 "f": "Indonesia Strategy",
@@ -234,9 +227,9 @@
 {
 "d": "2026-10-14",
 "h": "JPMorgan",
-"co": "ASEAN & China Autos",
-"f": "ASEAN & China Autos",
-"k": "company",
+"co": "Indonesia Autos",
+"f": "Indonesia Autos",
+"k": "sector",
 "t": "More plugs, more plants, more EVs"
 },
 {
@@ -276,18 +269,6 @@
 },
 {
 "d": "2026-10-13",
-"h": "Unknown",
-"co": "Unknown",
-"f": "Unknown",
-"k": "company",
-"t": "OKI - An Earnings Catalyst Amid Softer Pulp Prices",
-"action": "maintain",
-"rating": "BUY",
-"tp": 12700.0,
-"tk": "INKP"
-},
-{
-"d": "2026-10-13",
 "h": "UOB Kay Hian",
 "co": "Aneka Tambang",
 "f": "Aneka Tambang",
@@ -297,6 +278,18 @@
 "rating": "BUY",
 "tp": 4100.0,
 "tk": "ANTM"
+},
+{
+"d": "2026-10-13",
+"h": "RHB",
+"co": "Pabrik Kertas Tjiwi Kimia",
+"f": "Pabrik Kertas Tjiwi Kimia",
+"k": "company",
+"t": "OKI - An Earnings Catalyst Amid Softer Pulp Prices",
+"action": "maintain",
+"rating": "BUY",
+"tp": 12700.0,
+"tk": "TKIM"
 },
 {
 "d": "2026-10-13",
@@ -351,10 +344,20 @@
 {
 "d": "2026-10-13",
 "h": "JPMorgan",
-"co": "ASEAN Thematic Strategy",
-"f": "ASEAN Thematic Strategy",
-"k": "company",
+"co": "Indonesia Strategy",
+"f": "Indonesia Strategy",
+"k": "strategy",
 "t": "Stability anchors for a fragmented global supply chain"
+},
+{
+"d": "2026-10-12",
+"h": "Unknown",
+"co": "Medco Energi Internasional",
+"f": "Medco Energi Internasional",
+"k": "company",
+"t": "Agreed to acquire a 10% non-operating interest",
+"tp": 2000.0,
+"tk": "MEDC"
 },
 {
 "d": "2026-10-12",
@@ -365,16 +368,6 @@
 "t": "╖ The update reinforces the broader recovery across the AMRT group",
 "tp": 2100.0,
 "tk": "MIDI"
-},
-{
-"d": "2026-10-12",
-"h": "Unknown",
-"co": "Unknown",
-"f": "Unknown",
-"k": "company",
-"t": "╖ Medco Energi agreed to acquire a 10% non-operating interest in four",
-"tp": 2000.0,
-"tk": "MEDC"
 },
 {
 "d": "2026-10-12",
@@ -391,12 +384,20 @@
 {
 "d": "2026-10-12",
 "h": "CLSA",
-"co": "Initiating coverage",
-"f": "Initiating coverage",
+"co": "Merdeka Gold Resources",
+"f": "Merdeka Gold Resources",
 "k": "company",
 "t": "Gold miner with high growth and reserve upside potential",
 "tp": 11000.0,
 "tk": "EMAS"
+},
+{
+"d": "2026-10-12",
+"h": "CGS International",
+"co": "Indonesia Datacenters",
+"f": "Indonesia Datacenters",
+"k": "sector",
+"t": "AI-ready DCs, Six building blocks to win race"
 },
 {
 "d": "2026-10-12",
@@ -407,20 +408,20 @@
 "t": "Powering consumption through policy"
 },
 {
-"d": "2026-10-12",
-"h": "CGS International",
-"co": "Unknown",
-"f": "Unknown",
-"k": "company",
-"t": "AI-ready DCs, Six building blocks to win race"
-},
-{
 "d": "2026-10-11",
 "h": "Nomura",
 "co": "Indonesia Banks",
 "f": "Indonesia Banks",
 "k": "sector",
 "t": "Widening gap"
+},
+{
+"d": "2026-10-09",
+"h": "Unknown",
+"co": "Indonesia Autos",
+"f": "Indonesia Autos",
+"k": "sector",
+"t": "Strong industry sales momentum sustained in Sept-26"
 },
 {
 "d": "2026-10-09",
@@ -437,16 +438,6 @@
 "f": "Indonesia Macro",
 "k": "macro",
 "t": "JCI weak despite CPI, trade lifts, MTEL IJ TP cut"
-},
-{
-"d": "2026-10-09",
-"h": "Unknown",
-"co": "Unknown",
-"f": "Unknown",
-"k": "company",
-"t": "╖ Strong industry sales momentum sustained in Sept-26. 4W Sept",
-"tp": 5900.0,
-"tk": "ASII"
 },
 {
 "d": "2026-10-09",
@@ -563,6 +554,16 @@
 {
 "d": "2026-10-07",
 "h": "Unknown",
+"co": "GoTo Gojek Tokopedia",
+"f": "GoTo Gojek Tokopedia",
+"k": "company",
+"t": "Potential re-rating from a low base",
+"tp": 48.0,
+"tk": "GOTO"
+},
+{
+"d": "2026-10-07",
+"h": "Unknown",
 "co": "Kalbe Farma",
 "f": "Kalbe Farma",
 "k": "company",
@@ -570,28 +571,6 @@
 "action": "maintain",
 "rating": "BUY",
 "tk": "KLBF"
-},
-{
-"d": "2026-10-07",
-"h": "Unknown",
-"co": "Unknown",
-"f": "Unknown",
-"k": "company",
-"t": "Weaker Demand To Cap Earnings Recovery, BUY",
-"action": "maintain",
-"rating": "BUY",
-"tp": 17150.0,
-"tk": "GGRM"
-},
-{
-"d": "2026-10-07",
-"h": "Unknown",
-"co": "Unknown",
-"f": "Unknown",
-"k": "company",
-"t": "╖ Potential re-rating from a low base. GOTO has fallen from Rp50 to",
-"tp": 48.0,
-"tk": "ARTO"
 },
 {
 "d": "2026-10-07",
@@ -604,6 +583,18 @@
 "rating": "BUY",
 "tp": 1870.0,
 "tk": "ENRG"
+},
+{
+"d": "2026-10-07",
+"h": "RHB",
+"co": "HM Sampoerna",
+"f": "HM Sampoerna",
+"k": "company",
+"t": "Weaker Demand To Cap Earnings Recovery, BUY",
+"action": "maintain",
+"rating": "BUY",
+"tp": 17150.0,
+"tk": "HMSP"
 },
 {
 "d": "2026-10-07",
@@ -1214,14 +1205,10 @@
 {
 "d": "2026-09-18",
 "h": "Nomura",
-"co": "Unknown",
-"f": "Unknown",
-"k": "company",
-"t": "Indonesia data center, in the early innings of growth",
-"action": "initiate",
-"rating": "BUY",
-"tp": 3700.0,
-"tk": "DCII"
+"co": "Indonesia Datacenters",
+"f": "Indonesia Datacenters",
+"k": "sector",
+"t": "Indonesia data center, in the early innings of growth"
 },
 {
 "d": "2026-09-18",
@@ -1323,23 +1310,11 @@
 },
 {
 "d": "2026-09-11",
-"h": "Unknown",
-"co": "Unknown",
-"f": "Unknown",
-"k": "company",
-"t": "Strong Auto Sales Towards The End Of The Year",
-"action": "maintain",
-"rating": "N",
-"tk": "AUTO"
-},
-{
-"d": "2026-09-10",
-"h": "Unknown",
-"co": "Unknown",
-"f": "Unknown",
-"k": "company",
-"t": "Better Margins, But Demand Remains Weak",
-"tk": "HMSP"
+"h": "RHB",
+"co": "Indonesia Autos",
+"f": "Indonesia Autos",
+"k": "sector",
+"t": "Strong Auto Sales Towards The End Of The Year"
 },
 {
 "d": "2026-09-10",
@@ -1351,6 +1326,14 @@
 "action": "maintain",
 "rating": "BUY",
 "tk": "ANTM"
+},
+{
+"d": "2026-09-10",
+"h": "RHB",
+"co": "Indonesia Consumer Staples",
+"f": "Indonesia Consumer Staples",
+"k": "sector",
+"t": "Better Margins, But Demand Remains Weak"
 },
 {
 "d": "2026-09-10",
@@ -1852,11 +1835,11 @@
 },
 {
 "d": "2026-04-14",
-"h": "Unknown",
-"co": "Unknown",
-"f": "Unknown",
+"h": "RHB",
+"co": "Pabrik Kertas Tjiwi Kimia",
+"f": "Pabrik Kertas Tjiwi Kimia",
 "k": "company",
-"t": "Target Price (Return), Price (Market Cap), ESG score, Avg Daily Turnover (IDR-USD)",
+"t": "OKI Support Keeps Earnings Resilient Amid Oil Price Hike",
 "action": "maintain",
 "rating": "BUY",
 "tk": "TKIM"
@@ -2035,13 +2018,11 @@
 },
 {
 "d": "2000-00-00",
-"h": "Unknown",
-"co": "Unknown",
-"f": "Unknown",
-"k": "company",
-"t": "INDONESIA THEMATIC OCT 2026",
-"tp": 5700.0,
-"tk": "DRMA"
+"h": "RHB",
+"co": "Indonesia Autos",
+"f": "Indonesia Autos",
+"k": "sector",
+"t": "Time To Go Local"
 }
 ]
 }

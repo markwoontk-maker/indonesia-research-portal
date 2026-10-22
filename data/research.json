@@ -9,6 +9,92 @@
 "t": "The floor has risen"
 },
 {
+"d": "2026-10-21",
+"h": "Maybank",
+"co": "AKR Corporindo",
+"f": "AKR Corporindo",
+"k": "company",
+"t": "Supply moat drives market share gains",
+"action": "maintain",
+"rating": "BUY",
+"tp": 1850.0,
+"tk": "AKRA"
+},
+{
+"d": "2026-10-21",
+"h": "JPMorgan",
+"co": "Mitra Keluarga Karyasehat",
+"f": "Mitra Keluarga Karyasehat",
+"k": "company",
+"t": "A mispriced compounder, stay OW MIKA",
+"rating": "OW",
+"tp": 1850.0,
+"ptp": 2200.0,
+"tk": "MIKA"
+},
+{
+"d": "2026-10-21",
+"h": "CLSA",
+"co": "Telkom Indonesia",
+"f": "Telkom Indonesia",
+"k": "company",
+"t": "Batam site visit highlights",
+"rating": "O-PF",
+"tp": 3200.0,
+"tk": "TLKM"
+},
+{
+"d": "2026-10-21",
+"h": "CLSA",
+"co": "Unknown",
+"f": "Unknown",
+"k": "company",
+"t": "Aircraft service",
+"rating": "NOT RATED",
+"tk": "GMFI"
+},
+{
+"d": "2026-10-21",
+"h": "Bernstein",
+"co": "Indonesia Internet",
+"f": "Indonesia Internet",
+"k": "sector",
+"t": "India E-Commerce, Dark store expansion maturing ... and leading to the great convergence"
+},
+{
+"d": "2026-10-20",
+"h": "Unknown",
+"co": "Indonesia Banks",
+"f": "Indonesia Banks",
+"k": "sector",
+"t": "╖ Base case shifts to demotion. MSCI's statement infers a move to"
+},
+{
+"d": "2026-10-20",
+"h": "Unknown",
+"co": "Unknown",
+"f": "Unknown",
+"k": "company",
+"t": "╖ Air treatment remains a key demand driver. Management highlighted",
+"action": "maintain",
+"rating": "O-PF",
+"tp": 450.0,
+"tk": "ACES"
+},
+{
+"d": "2026-10-20",
+"h": "Unknown",
+"co": "Unknown",
+"f": "Unknown",
+"k": "company",
+"t": "╖ Micro trends remain unfavourable. Recent cohorts in the Kupedes",
+"action": "downgrade",
+"rating": "U-PF",
+"tp": 2200.0,
+"ptp": 2860.0,
+"tk": "BBRI"
+},
+{
 "d": "2026-10-20",
 "h": "UOB Kay Hian",
 "co": "Indonesia Strategy",
@@ -18,11 +104,43 @@
 },
 {
 "d": "2026-10-20",
+"h": "RHB",
+"co": "Indonesia Healthcare",
+"f": "Indonesia Healthcare",
+"k": "sector",
+"t": "Navigating Headwinds, Cut To NEUTRAL"
+},
+{
+"d": "2026-10-20",
 "h": "Nomura",
 "co": "Indonesia Consumer Staples",
 "f": "Indonesia Consumer Staples",
 "k": "sector",
 "t": "3Q26F preview, Defensive cash compounders"
+},
+{
+"d": "2026-10-20",
+"h": "Maybank",
+"co": "Aspirasi Hidup Indonesia",
+"f": "Aspirasi Hidup Indonesia",
+"k": "company",
+"t": "Growing steadily",
+"action": "maintain",
+"rating": "BUY",
+"tp": 500.0,
+"tk": "ACES"
+},
+{
+"d": "2026-10-20",
+"h": "Maybank",
+"co": "Ciputra Development",
+"f": "Ciputra Development",
+"k": "company",
+"t": "Strategic launches support pre-sales amid soft demand",
+"action": "maintain",
+"rating": "BUY",
+"tp": 660.0,
+"tk": "CTRA"
 },
 {
 "d": "2026-10-20",
@@ -43,6 +161,18 @@
 "f": "Indonesia Strategy",
 "k": "strategy",
 "t": "MSCI Standalone Market Overhang, Follow The Dividends"
+},
+{
+"d": "2026-10-19",
+"h": "RHB",
+"co": "Telkom Indonesia",
+"f": "Telkom Indonesia",
+"k": "company",
+"t": "Site Visit, DC Campuses And Subsea Fiber Optics, BUY",
+"action": "maintain",
+"rating": "BUY",
+"tp": 1900.0,
+"tk": "TLKM"
 },
 {
 "d": "2026-10-19",

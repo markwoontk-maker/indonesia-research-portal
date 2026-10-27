@@ -9,6 +9,439 @@
 "t": "The floor has risen"
 },
 {
+"d": "2026-10-27",
+"h": "UOB Kay Hian",
+"co": "Elnusa",
+"f": "Elnusa",
+"k": "company",
+"t": "Expect Solid 2H26 Earnings And New Growth Opportunities Ahead",
+"action": "maintain",
+"rating": "BUY",
+"tp": 1450.0,
+"tk": "ELSA"
+},
+{
+"d": "2026-10-27",
+"h": "Maybank",
+"co": "Bank Mandiri",
+"f": "Bank Mandiri",
+"k": "company",
+"t": "Growth holds firm",
+"action": "maintain",
+"rating": "BUY",
+"tp": 5200.0,
+"ptp": 5700.0,
+"tk": "BMRI"
+},
+{
+"d": "2026-10-27",
+"h": "JPMorgan",
+"co": "MAP Aktif Adiperkasa",
+"f": "MAP Aktif Adiperkasa",
+"k": "company",
+"t": "First Take, 3Q26 results in line, aided by consolidation of Sports Direct",
+"rating": "OW",
+"tp": 845.0,
+"tk": "MAPA"
+},
+{
+"d": "2026-10-27",
+"h": "JPMorgan",
+"co": "Mitra Adiperkasa",
+"f": "Mitra Adiperkasa",
+"k": "company",
+"t": "First Take, 3Q26 results - soft beat",
+"rating": "N",
+"tp": 1270.0,
+"tk": "MAPI"
+},
+{
+"d": "2026-10-26",
+"h": "UOB Kay Hian",
+"co": "AKR Corporindo",
+"f": "AKR Corporindo",
+"k": "company",
+"t": "3Q26, T&D Margin Recovery Supports Earnings Upside",
+"action": "maintain",
+"rating": "BUY",
+"tp": 1600.0,
+"tk": "AKRA"
+},
+{
+"d": "2026-10-26",
+"h": "Nomura",
+"co": "Bank Mandiri",
+"f": "Bank Mandiri",
+"k": "company",
+"t": "Solid 9M26 results",
+"action": "maintain",
+"rating": "BUY",
+"tk": "BMRI"
+},
+{
+"d": "2026-10-26",
+"h": "Nomura",
+"co": "Indonesia Plantations",
+"f": "Indonesia Plantations",
+"k": "sector",
+"t": "Yield with potential upside"
+},
+{
+"d": "2026-10-26",
+"h": "Maybank",
+"co": "Bukalapak",
+"f": "Bukalapak",
+"k": "company",
+"t": "Core profit gaining momentum",
+"action": "maintain",
+"rating": "BUY",
+"tp": 140.0,
+"tk": "BUKA"
+},
+{
+"d": "2026-10-26",
+"h": "Maybank",
+"co": "Pakuwon Jati",
+"f": "Pakuwon Jati",
+"k": "company",
+"t": "Lower pre-sales outlook, resilient recurring income",
+"action": "maintain",
+"rating": "BUY",
+"tk": "PWON"
+},
+{
+"d": "2026-10-26",
+"h": "JPMorgan",
+"co": "Indonesia Power",
+"f": "Indonesia Power",
+"k": "sector",
+"t": "Thoughts on Indonesia reducing gas exports to Singapore"
+},
+{
+"d": "2026-10-26",
+"h": "JPMorgan",
+"co": "Unilever Indonesia",
+"f": "Unilever Indonesia",
+"k": "company",
+"t": "Fundamentals bottoming out, upgrade to Neutral",
+"action": "upgrade",
+"rating": "N",
+"tp": 1480.0,
+"ptp": 1240.0,
+"tk": "UNVR"
+},
+{
+"d": "2026-10-26",
+"h": "JPMorgan",
+"co": "United Tractors",
+"f": "United Tractors",
+"k": "company",
+"t": "First Take, Solid 3Q26 driven by Pama",
+"rating": "OW",
+"tp": 30200.0,
+"tk": "UNTR"
+},
+{
+"d": "2026-10-26",
+"h": "JPMorgan",
+"co": "Unknown",
+"f": "Unknown",
+"k": "company",
+"t": "ASEAN (Charnon Boonnuch), Indonesia, Malaysia, Philippines, Singapore, Thailand, Vietnam",
+"tp": 1850.0,
+"tk": "AKRA"
+},
+{
+"d": "2026-10-26",
+"h": "JPMorgan",
+"co": "Unknown",
+"f": "Unknown",
+"k": "company",
+"t": "Capturing alpha with a systematic strategy"
+},
+{
+"d": "2026-10-26",
+"h": "CLSA",
+"co": "AKR Corporindo",
+"f": "AKR Corporindo",
+"k": "company",
+"t": "Record year amid turbulent macro",
+"rating": "O-PF",
+"ptp": 1850.0,
+"tp": 2000.0,
+"tk": "AKRA"
+},
+{
+"d": "2026-10-26",
+"h": "CLSA",
+"co": "Bank Mandiri",
+"f": "Bank Mandiri",
+"k": "company",
+"t": "Kicking the can down the road",
+"action": "downgrade",
+"prev": "O-PF",
+"rating": "HOLD",
+"ptp": 5000.0,
+"tp": 3850.0,
+"tk": "BMRI"
+},
+{
+"d": "2026-10-26",
+"h": "CGS International",
+"co": "Bank Mandiri",
+"f": "Bank Mandiri",
+"k": "company",
+"t": "Upgrading its loan growth and CIR targets",
+"action": "maintain",
+"rating": "ADD",
+"tp": 4300.0,
+"tk": "BMRI"
+},
+{
+"d": "2026-10-26",
+"h": "CGS International",
+"co": "Indonesia Consumer Staples",
+"f": "Indonesia Consumer Staples",
+"k": "sector",
+"t": "The Farmer Tracker Oct 2026"
+},
+{
+"d": "2026-10-25",
+"h": "JPMorgan",
+"co": "Bank Mandiri",
+"f": "Bank Mandiri",
+"k": "company",
+"t": "First Take, A small beat to Street on pre-tax, LAR coverage at risk, stay UW",
+"rating": "UW",
+"tp": 3700.0,
+"tk": "BMRI"
+},
+{
+"d": "2026-10-25",
+"h": "CLSA",
+"co": "Indonesia Strategy",
+"f": "Indonesia Strategy",
+"k": "strategy",
+"t": "One week into the MSCI fallout"
+},
+{
+"d": "2026-10-23",
+"h": "Unknown",
+"co": "Indonesia Consumer Staples",
+"f": "Indonesia Consumer Staples",
+"k": "sector",
+"t": "╖ Volume-led recovery gains traction. UNVR's 3Q26 domestic revenue"
+},
+{
+"d": "2026-10-23",
+"h": "Unknown",
+"co": "Indonesia Strategy",
+"f": "Indonesia Strategy",
+"k": "strategy",
+"t": "╖ Our Malaysia meetings suggest investors remain in wait-and-see mode"
+},
+{
+"d": "2026-10-23",
+"h": "Unknown",
+"co": "Unknown",
+"f": "Unknown",
+"k": "company",
+"t": "╖ What was good. Loan growth was led by wholesale (corporate, commercial)",
+"tp": 4180.0,
+"tk": "BMRI"
+},
+{
+"d": "2026-10-23",
+"h": "UOB Kay Hian",
+"co": "Surya Pertiwi",
+"f": "Surya Pertiwi",
+"k": "company",
+"t": "Market Leader With High Dividend Yield",
+"rating": "NOT RATED",
+"tk": "SPTO"
+},
+{
+"d": "2026-10-23",
+"h": "Nomura",
+"co": "Indonesia Autos",
+"f": "Indonesia Autos",
+"k": "sector",
+"t": "Indonesia autos"
+},
+{
+"d": "2026-10-23",
+"h": "Nomura",
+"co": "Unknown",
+"f": "Unknown",
+"k": "company",
+"t": "Key newsflow (October 17-23)"
+},
+{
+"d": "2026-10-23",
+"h": "Maybank",
+"co": "Unilever Indonesia",
+"f": "Unilever Indonesia",
+"k": "company",
+"t": "Recover, but not at full speed",
+"action": "maintain",
+"rating": "SELL",
+"tp": 1075.0,
+"tk": "UNVR"
+},
+{
+"d": "2026-10-23",
+"h": "JPMorgan",
+"co": "AKR Corporindo",
+"f": "AKR Corporindo",
+"k": "company",
+"t": "First Take, Solid 3Q26 results on improving T&D margin and stronger-than-expected land sales",
+"rating": "OW",
+"tp": 1850.0,
+"tk": "AKRA"
+},
+{
+"d": "2026-10-23",
+"h": "CLSA",
+"co": "Unilever Indonesia",
+"f": "Unilever Indonesia",
+"k": "company",
+"t": "Pricing through pressure",
+"action": "upgrade",
+"prev": "HOLD",
+"rating": "O-PF",
+"ptp": 2100.0,
+"tp": 1600.0,
+"tk": "UNVR"
+},
+{
+"d": "2026-10-23",
+"h": "CGS International",
+"co": "Bank BTPN Syariah",
+"f": "Bank BTPN Syariah",
+"k": "company",
+"t": "Well-controlled asset quality",
+"action": "maintain",
+"rating": "ADD",
+"tp": 1300.0,
+"tk": "BTPS"
+},
+{
+"d": "2026-10-23",
+"h": "CGS International",
+"co": "Indonesia Metals",
+"f": "Indonesia Metals",
+"k": "sector",
+"t": "Digging for dividends"
+},
+{
+"d": "2026-10-22",
+"h": "Unknown",
+"co": "Indonesia Coal",
+"f": "Indonesia Coal",
+"k": "sector",
+"t": "╖ We remain constructive on Indonesian coal as a relative bright spot"
+},
+{
+"d": "2026-10-22",
+"h": "UOB Kay Hian",
+"co": "Cisarua Mountain Dairy",
+"f": "Cisarua Mountain Dairy",
+"k": "company",
+"t": "On Track For Guidance",
+"action": "maintain",
+"rating": "BUY",
+"tp": 5800.0,
+"tk": "CMRY"
+},
+{
+"d": "2026-10-22",
+"h": "UOB Kay Hian",
+"co": "Indonesia Macro",
+"f": "Indonesia Macro",
+"k": "macro",
+"t": "BI Rate Held At 5.75%, Balancing Rupiah Stability And Growth Support"
+},
+{
+"d": "2026-10-22",
+"h": "Nomura",
+"co": "Indonesia Macro",
+"f": "Indonesia Macro",
+"k": "macro",
+"t": "Economics - ASEAN-Asia ex-Japan"
+},
+{
+"d": "2026-10-22",
+"h": "Maybank",
+"co": "Chandra Asri Pacific",
+"f": "Chandra Asri Pacific",
+"k": "company",
+"t": "Building a more resilient earnings base",
+"action": "maintain",
+"rating": "BUY",
+"tp": 1800.0,
+"tk": "TPIA"
+},
+{
+"d": "2026-10-22",
+"h": "CLSA",
+"co": "Indonesia Consumer Staples",
+"f": "Indonesia Consumer Staples",
+"k": "sector",
+"t": "3Q26 result preview"
+},
+{
+"d": "2026-10-22",
+"h": "CLSA",
+"co": "Indonesia Telecom",
+"f": "Indonesia Telecom",
+"k": "sector",
+"t": "Telco data pricing survey Sep Oct"
+},
+{
+"d": "2026-10-22",
+"h": "CGS International",
+"co": "HM Sampoerna",
+"f": "HM Sampoerna",
+"k": "company",
+"t": "Volume growth recovery above estimates",
+"action": "maintain",
+"rating": "ADD",
+"tp": 1060.0,
+"tk": "HMSP"
+},
+{
+"d": "2026-10-22",
+"h": "CGS International",
+"co": "Unilever Indonesia",
+"f": "Unilever Indonesia",
+"k": "company",
+"t": "9M26 core NPAT came above",
+"action": "maintain",
+"rating": "ADD",
+"tp": 2040.0,
+"tk": "UNVR"
+},
+{
+"d": "2026-10-21",
+"h": "Unknown",
+"co": "Indonesia Cement",
+"f": "Indonesia Cement",
+"k": "sector",
+"t": "Demand recovers, but technical risks linger"
+},
+{
+"d": "2026-10-21",
+"h": "UOB Kay Hian",
+"co": "Darma Henwa",
+"f": "Darma Henwa",
+"k": "company",
+"t": "Ramping Up For 2027 Growth",
+"action": "maintain",
+"rating": "BUY",
+"tp": 780.0,
+"tk": "DEWA"
+},
+{
 "d": "2026-10-21",
 "h": "Maybank",
 "co": "AKR Corporindo",
@@ -19,6 +452,22 @@
 "rating": "BUY",
 "tp": 1850.0,
 "tk": "AKRA"
+},
+{
+"d": "2026-10-21",
+"h": "JPMorgan",
+"co": "Indonesia Datacenters",
+"f": "Indonesia Datacenters",
+"k": "sector",
+"t": "Key Takeaways from TLKM Analyst Day, Batam DC site visit, demand firm, but power and capital are possible bottlenecks"
+},
+{
+"d": "2026-10-21",
+"h": "JPMorgan",
+"co": "Indonesia Macro",
+"f": "Indonesia Macro",
+"k": "macro",
+"t": "Hike another day - Hawkish rates, dovish liquidity calibration"
 },
 {
 "d": "2026-10-21",
@@ -52,6 +501,22 @@
 "t": "Aircraft service",
 "rating": "NOT RATED",
 "tk": "GMFI"
+},
+{
+"d": "2026-10-21",
+"h": "CGS International",
+"co": "Indonesia Consumer Discretionary",
+"f": "Indonesia Consumer Discretionary",
+"k": "sector",
+"t": "Mid-and-Upper Consumption Pulse, 3Q26F"
+},
+{
+"d": "2026-10-21",
+"h": "CGS International",
+"co": "Indonesia Macro",
+"f": "Indonesia Macro",
+"k": "macro",
+"t": "BI extends pause, but hawkish bias may build"
 },
 {
 "d": "2026-10-21",

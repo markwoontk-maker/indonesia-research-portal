@@ -120,6 +120,22 @@
 {
 "d": "2026-10-26",
 "h": "JPMorgan",
+"co": "Indonesia Strategy",
+"f": "Indonesia Strategy",
+"k": "strategy",
+"t": "ASEAN First to Market"
+},
+{
+"d": "2026-10-26",
+"h": "JPMorgan",
+"co": "Indonesia Strategy",
+"f": "Indonesia Strategy",
+"k": "strategy",
+"t": "ASEAN Quantitative Strategy, Capturing alpha with a systematic strategy"
+},
+{
+"d": "2026-10-26",
+"h": "JPMorgan",
 "co": "Unilever Indonesia",
 "f": "Unilever Indonesia",
 "k": "company",
@@ -140,24 +156,6 @@
 "rating": "OW",
 "tp": 30200.0,
 "tk": "UNTR"
-},
-{
-"d": "2026-10-26",
-"h": "JPMorgan",
-"co": "Unknown",
-"f": "Unknown",
-"k": "company",
-"t": "ASEAN (Charnon Boonnuch), Indonesia, Malaysia, Philippines, Singapore, Thailand, Vietnam",
-"tp": 1850.0,
-"tk": "AKRA"
-},
-{
-"d": "2026-10-26",
-"h": "JPMorgan",
-"co": "Unknown",
-"f": "Unknown",
-"k": "company",
-"t": "Capturing alpha with a systematic strategy"
 },
 {
 "d": "2026-10-26",
@@ -226,32 +224,6 @@
 },
 {
 "d": "2026-10-23",
-"h": "Unknown",
-"co": "Indonesia Consumer Staples",
-"f": "Indonesia Consumer Staples",
-"k": "sector",
-"t": "╖ Volume-led recovery gains traction. UNVR's 3Q26 domestic revenue"
-},
-{
-"d": "2026-10-23",
-"h": "Unknown",
-"co": "Indonesia Strategy",
-"f": "Indonesia Strategy",
-"k": "strategy",
-"t": "╖ Our Malaysia meetings suggest investors remain in wait-and-see mode"
-},
-{
-"d": "2026-10-23",
-"h": "Unknown",
-"co": "Unknown",
-"f": "Unknown",
-"k": "company",
-"t": "╖ What was good. Loan growth was led by wholesale (corporate, commercial)",
-"tp": 4180.0,
-"tk": "BMRI"
-},
-{
-"d": "2026-10-23",
 "h": "UOB Kay Hian",
 "co": "Surya Pertiwi",
 "f": "Surya Pertiwi",
@@ -266,14 +238,14 @@
 "co": "Indonesia Autos",
 "f": "Indonesia Autos",
 "k": "sector",
-"t": "Indonesia autos"
+"t": "TAM, SAM and SOM of Indonesia autos"
 },
 {
 "d": "2026-10-23",
 "h": "Nomura",
-"co": "Unknown",
-"f": "Unknown",
-"k": "company",
+"co": "Indonesia Plantations",
+"f": "Indonesia Plantations",
+"k": "sector",
 "t": "Key newsflow (October 17-23)"
 },
 {
@@ -286,6 +258,36 @@
 "action": "maintain",
 "rating": "SELL",
 "tp": 1075.0,
+"tk": "UNVR"
+},
+{
+"d": "2026-10-23",
+"h": "Macquarie",
+"co": "Bank Mandiri",
+"f": "Bank Mandiri",
+"k": "company",
+"t": "3Q26, Beat and raise",
+"tp": 4180.0,
+"tk": "BMRI"
+},
+{
+"d": "2026-10-23",
+"h": "Macquarie",
+"co": "Indonesia Strategy",
+"f": "Indonesia Strategy",
+"k": "strategy",
+"t": "Postcard from KL, Waiting for clarity"
+},
+{
+"d": "2026-10-23",
+"h": "Macquarie",
+"co": "Unilever Indonesia",
+"f": "Unilever Indonesia",
+"k": "company",
+"t": "Solid growth, but watch for margin pressure",
+"action": "maintain",
+"rating": "N",
+"tp": 1450.0,
 "tk": "UNVR"
 },
 {
@@ -335,14 +337,6 @@
 },
 {
 "d": "2026-10-22",
-"h": "Unknown",
-"co": "Indonesia Coal",
-"f": "Indonesia Coal",
-"k": "sector",
-"t": "╖ We remain constructive on Indonesian coal as a relative bright spot"
-},
-{
-"d": "2026-10-22",
 "h": "UOB Kay Hian",
 "co": "Cisarua Mountain Dairy",
 "f": "Cisarua Mountain Dairy",
@@ -367,7 +361,7 @@
 "co": "Indonesia Macro",
 "f": "Indonesia Macro",
 "k": "macro",
-"t": "Economics - ASEAN-Asia ex-Japan"
+"t": "Postcard from Jakarta"
 },
 {
 "d": "2026-10-22",
@@ -380,6 +374,14 @@
 "rating": "BUY",
 "tp": 1800.0,
 "tk": "TPIA"
+},
+{
+"d": "2026-10-22",
+"h": "Macquarie",
+"co": "Indonesia Coal",
+"f": "Indonesia Coal",
+"k": "sector",
+"t": "A bright spot amid market uncertainty"
 },
 {
 "d": "2026-10-22",
@@ -423,14 +425,6 @@
 },
 {
 "d": "2026-10-21",
-"h": "Unknown",
-"co": "Indonesia Cement",
-"f": "Indonesia Cement",
-"k": "sector",
-"t": "Demand recovers, but technical risks linger"
-},
-{
-"d": "2026-10-21",
 "h": "UOB Kay Hian",
 "co": "Darma Henwa",
 "f": "Darma Henwa",
@@ -452,6 +446,14 @@
 "rating": "BUY",
 "tp": 1850.0,
 "tk": "AKRA"
+},
+{
+"d": "2026-10-21",
+"h": "Macquarie",
+"co": "Indonesia Cement",
+"f": "Indonesia Cement",
+"k": "sector",
+"t": "Demand recovers, but technical risks linger"
 },
 {
 "d": "2026-10-21",
@@ -484,6 +486,14 @@
 {
 "d": "2026-10-21",
 "h": "CLSA",
+"co": "Indonesia Aviation",
+"f": "Indonesia Aviation",
+"k": "sector",
+"t": "Aircraft service"
+},
+{
+"d": "2026-10-21",
+"h": "CLSA",
 "co": "Telkom Indonesia",
 "f": "Telkom Indonesia",
 "k": "company",
@@ -491,16 +501,6 @@
 "rating": "O-PF",
 "tp": 3200.0,
 "tk": "TLKM"
-},
-{
-"d": "2026-10-21",
-"h": "CLSA",
-"co": "Unknown",
-"f": "Unknown",
-"k": "company",
-"t": "Aircraft service",
-"rating": "NOT RATED",
-"tk": "GMFI"
 },
 {
 "d": "2026-10-21",
@@ -517,47 +517,6 @@
 "f": "Indonesia Macro",
 "k": "macro",
 "t": "BI extends pause, but hawkish bias may build"
-},
-{
-"d": "2026-10-21",
-"h": "Bernstein",
-"co": "Indonesia Internet",
-"f": "Indonesia Internet",
-"k": "sector",
-"t": "India E-Commerce, Dark store expansion maturing ... and leading to the great convergence"
-},
-{
-"d": "2026-10-20",
-"h": "Unknown",
-"co": "Indonesia Banks",
-"f": "Indonesia Banks",
-"k": "sector",
-"t": "╖ Base case shifts to demotion. MSCI's statement infers a move to"
-},
-{
-"d": "2026-10-20",
-"h": "Unknown",
-"co": "Unknown",
-"f": "Unknown",
-"k": "company",
-"t": "╖ Air treatment remains a key demand driver. Management highlighted",
-"action": "maintain",
-"rating": "O-PF",
-"tp": 450.0,
-"tk": "ACES"
-},
-{
-"d": "2026-10-20",
-"h": "Unknown",
-"co": "Unknown",
-"f": "Unknown",
-"k": "company",
-"t": "╖ Micro trends remain unfavourable. Recent cohorts in the Kupedes",
-"action": "downgrade",
-"rating": "U-PF",
-"tp": 2200.0,
-"ptp": 2860.0,
-"tk": "BBRI"
 },
 {
 "d": "2026-10-20",
@@ -606,6 +565,39 @@
 "rating": "BUY",
 "tp": 660.0,
 "tk": "CTRA"
+},
+{
+"d": "2026-10-20",
+"h": "Macquarie",
+"co": "Aspirasi Hidup Indonesia",
+"f": "Aspirasi Hidup Indonesia",
+"k": "company",
+"t": "9M26 trading update, Sales momentum improves",
+"action": "maintain",
+"rating": "O-PF",
+"tp": 450.0,
+"tk": "ACES"
+},
+{
+"d": "2026-10-20",
+"h": "Macquarie",
+"co": "Bank Rakyat Indonesia",
+"f": "Bank Rakyat Indonesia",
+"k": "company",
+"t": "Downgrade, Challenges extend beyond MSCI",
+"action": "downgrade",
+"rating": "U-PF",
+"tp": 2200.0,
+"ptp": 2860.0,
+"tk": "BBRI"
+},
+{
+"d": "2026-10-20",
+"h": "Macquarie",
+"co": "Indonesia Banks",
+"f": "Indonesia Banks",
+"k": "sector",
+"t": "Good houses on a rough street"
 },
 {
 "d": "2026-10-20",
@@ -775,14 +767,6 @@
 },
 {
 "d": "2026-10-14",
-"h": "Unknown",
-"co": "Indonesia Metals",
-"f": "Indonesia Metals",
-"k": "sector",
-"t": "The smell of sulphur, HPAL ramp-up"
-},
-{
-"d": "2026-10-14",
 "h": "UOB Kay Hian",
 "co": "KB Bukopin",
 "f": "KB Bukopin",
@@ -821,6 +805,18 @@
 },
 {
 "d": "2026-10-14",
+"h": "Macquarie",
+"co": "Harum Energy",
+"f": "Harum Energy",
+"k": "company",
+"t": "Downgrade, The smell of sulphur",
+"action": "downgrade",
+"rating": "N",
+"tp": 840.0,
+"tk": "HRUM"
+},
+{
+"d": "2026-10-14",
 "h": "JPMorgan",
 "co": "Indonesia Autos",
 "f": "Indonesia Autos",
@@ -845,25 +841,6 @@
 },
 {
 "d": "2026-10-13",
-"h": "Unknown",
-"co": "Indonesia Strategy",
-"f": "Indonesia Strategy",
-"k": "strategy",
-"t": "╖ Following recent investor queries and our meeting with the MoF, we"
-},
-{
-"d": "2026-10-13",
-"h": "Unknown",
-"co": "Timah",
-"f": "Timah",
-"k": "company",
-"t": "Soldering Growth Momentum, Keep BUY",
-"action": "maintain",
-"rating": "BUY",
-"tk": "TINS"
-},
-{
-"d": "2026-10-13",
 "h": "UOB Kay Hian",
 "co": "Aneka Tambang",
 "f": "Aneka Tambang",
@@ -885,6 +862,17 @@
 "rating": "BUY",
 "tp": 12700.0,
 "tk": "TKIM"
+},
+{
+"d": "2026-10-13",
+"h": "RHB",
+"co": "Timah",
+"f": "Timah",
+"k": "company",
+"t": "Soldering Growth Momentum, Keep BUY",
+"action": "maintain",
+"rating": "BUY",
+"tk": "TINS"
 },
 {
 "d": "2026-10-13",
@@ -938,31 +926,19 @@
 },
 {
 "d": "2026-10-13",
+"h": "Macquarie",
+"co": "Indonesia Macro",
+"f": "Indonesia Macro",
+"k": "macro",
+"t": "Fiscal, Prudent on paper, tighter in practice"
+},
+{
+"d": "2026-10-13",
 "h": "JPMorgan",
 "co": "Indonesia Strategy",
 "f": "Indonesia Strategy",
 "k": "strategy",
 "t": "Stability anchors for a fragmented global supply chain"
-},
-{
-"d": "2026-10-12",
-"h": "Unknown",
-"co": "Medco Energi Internasional",
-"f": "Medco Energi Internasional",
-"k": "company",
-"t": "Agreed to acquire a 10% non-operating interest",
-"tp": 2000.0,
-"tk": "MEDC"
-},
-{
-"d": "2026-10-12",
-"h": "Unknown",
-"co": "Midi Utama Indonesia",
-"f": "Midi Utama Indonesia",
-"k": "company",
-"t": "╖ The update reinforces the broader recovery across the AMRT group",
-"tp": 2100.0,
-"tk": "MIDI"
 },
 {
 "d": "2026-10-12",
@@ -975,6 +951,26 @@
 "rating": "BUY",
 "tp": 530.0,
 "tk": "TOWR"
+},
+{
+"d": "2026-10-12",
+"h": "Macquarie",
+"co": "Medco Energi Internasional",
+"f": "Medco Energi Internasional",
+"k": "company",
+"t": "Kutei Basin, Buying into the next gas growth cycle",
+"tp": 2000.0,
+"tk": "MEDC"
+},
+{
+"d": "2026-10-12",
+"h": "Macquarie",
+"co": "Sumber Alfaria Trijaya",
+"f": "Sumber Alfaria Trijaya",
+"k": "company",
+"t": "MIDI 3Q26 3M trading update",
+"tp": 2100.0,
+"tk": "AMRT"
 },
 {
 "d": "2026-10-12",
@@ -1012,30 +1008,6 @@
 },
 {
 "d": "2026-10-09",
-"h": "Unknown",
-"co": "Indonesia Autos",
-"f": "Indonesia Autos",
-"k": "sector",
-"t": "Strong industry sales momentum sustained in Sept-26"
-},
-{
-"d": "2026-10-09",
-"h": "Unknown",
-"co": "Indonesia Coal",
-"f": "Indonesia Coal",
-"k": "sector",
-"t": "╖ Coal sentiment is turning more constructive. Macquarie Commodities"
-},
-{
-"d": "2026-10-09",
-"h": "Unknown",
-"co": "Indonesia Macro",
-"f": "Indonesia Macro",
-"k": "macro",
-"t": "JCI weak despite CPI, trade lifts, MTEL IJ TP cut"
-},
-{
-"d": "2026-10-09",
 "h": "Nomura",
 "co": "Bank Mandiri",
 "f": "Bank Mandiri",
@@ -1065,10 +1037,36 @@
 {
 "d": "2026-10-09",
 "h": "Maybank",
+"co": "Indonesia Macro",
+"f": "Indonesia Macro",
+"k": "macro",
+"t": "ASEAN+ Fortnightly, JCI weak despite CPI, trade lifts, MTEL IJ TP cut"
+},
+{
+"d": "2026-10-09",
+"h": "Maybank",
 "co": "Indonesia Strategy",
 "f": "Indonesia Strategy",
 "k": "strategy",
 "t": "Sep'26 Equity Fund Flows, JCI retreats on risk-off sentiment"
+},
+{
+"d": "2026-10-09",
+"h": "Macquarie",
+"co": "Astra International",
+"f": "Astra International",
+"k": "company",
+"t": "Strong Sept-26 auto sales",
+"tp": 5900.0,
+"tk": "ASII"
+},
+{
+"d": "2026-10-09",
+"h": "Macquarie",
+"co": "Indonesia Coal",
+"f": "Indonesia Coal",
+"k": "sector",
+"t": "Sentiment turns, constraints shift"
 },
 {
 "d": "2026-10-09",
@@ -1148,27 +1146,6 @@
 },
 {
 "d": "2026-10-07",
-"h": "Unknown",
-"co": "GoTo Gojek Tokopedia",
-"f": "GoTo Gojek Tokopedia",
-"k": "company",
-"t": "Potential re-rating from a low base",
-"tp": 48.0,
-"tk": "GOTO"
-},
-{
-"d": "2026-10-07",
-"h": "Unknown",
-"co": "Kalbe Farma",
-"f": "Kalbe Farma",
-"k": "company",
-"t": "Weathering The Headwinds, Stay BUY",
-"action": "maintain",
-"rating": "BUY",
-"tk": "KLBF"
-},
-{
-"d": "2026-10-07",
 "h": "UOB Kay Hian",
 "co": "Energi Mega Persada",
 "f": "Energi Mega Persada",
@@ -1193,6 +1170,17 @@
 },
 {
 "d": "2026-10-07",
+"h": "RHB",
+"co": "Kalbe Farma",
+"f": "Kalbe Farma",
+"k": "company",
+"t": "Weathering The Headwinds, Stay BUY",
+"action": "maintain",
+"rating": "BUY",
+"tk": "KLBF"
+},
+{
+"d": "2026-10-07",
 "h": "Maybank",
 "co": "Mulia Boga Raya",
 "f": "Mulia Boga Raya",
@@ -1202,6 +1190,16 @@
 "rating": "BUY",
 "tp": 850.0,
 "tk": "KEJU"
+},
+{
+"d": "2026-10-07",
+"h": "Macquarie",
+"co": "GoTo Gojek Tokopedia",
+"f": "GoTo Gojek Tokopedia",
+"k": "company",
+"t": "Back in play, while ODS risks linger",
+"tp": 48.0,
+"tk": "GOTO"
 },
 {
 "d": "2026-10-07",
@@ -1236,22 +1234,6 @@
 },
 {
 "d": "2026-10-05",
-"h": "Unknown",
-"co": "Indonesia Banks",
-"f": "Indonesia Banks",
-"k": "sector",
-"t": "╖ Investors are focused on state-contractor restructuring (see our"
-},
-{
-"d": "2026-10-05",
-"h": "Unknown",
-"co": "Indonesia Consumer Staples",
-"f": "Indonesia Consumer Staples",
-"k": "sector",
-"t": "╖ Headline company exposure likely overstates actual earnings risk"
-},
-{
-"d": "2026-10-05",
 "h": "UOB Kay Hian",
 "co": "Indonesia Macro",
 "f": "Indonesia Macro",
@@ -1276,6 +1258,22 @@
 },
 {
 "d": "2026-10-05",
+"h": "Macquarie",
+"co": "Indonesia Banks",
+"f": "Indonesia Banks",
+"k": "sector",
+"t": "Aug-26, Sound earnings, unclear catalysts"
+},
+{
+"d": "2026-10-05",
+"h": "Macquarie",
+"co": "Indonesia Consumer Staples",
+"f": "Indonesia Consumer Staples",
+"k": "sector",
+"t": "Sugary drinks excise, Less bitter than feared"
+},
+{
+"d": "2026-10-05",
 "h": "CLSA",
 "co": "Samudera Indonesia",
 "f": "Samudera Indonesia",
@@ -1283,14 +1281,6 @@
 "t": "Group meeting insights from Samudera (SMDR IJ, N-R)",
 "rating": "NOT RATED",
 "tk": "SMDR"
-},
-{
-"d": "2026-10-02",
-"h": "Unknown",
-"co": "Indonesia Strategy",
-"f": "Indonesia Strategy",
-"k": "strategy",
-"t": "╖ JCI did not extend gains for the third month as it corrected 7% MoM"
 },
 {
 "d": "2026-10-02",
@@ -1313,6 +1303,14 @@
 "rating": "BUY",
 "tp": 3250.0,
 "tk": "BRIS"
+},
+{
+"d": "2026-10-02",
+"h": "Macquarie",
+"co": "Indonesia Strategy",
+"f": "Indonesia Strategy",
+"k": "strategy",
+"t": "Go with the flow (Sep-26), No Green Day this September"
 },
 {
 "d": "2026-10-02",
@@ -1360,14 +1358,6 @@
 },
 {
 "d": "2026-10-01",
-"h": "Unknown",
-"co": "Indonesia Metals",
-"f": "Indonesia Metals",
-"k": "sector",
-"t": "order, INCO MDKA MBMA ANTM EMAS"
-},
-{
-"d": "2026-10-01",
 "h": "UOB Kay Hian",
 "co": "Indonesia Banks",
 "f": "Indonesia Banks",
@@ -1393,6 +1383,14 @@
 "f": "Indonesia Macro",
 "k": "macro",
 "t": "Fiscal risk monitor #10 - Budget 2027 faces another test of policy credibility"
+},
+{
+"d": "2026-10-01",
+"h": "Macquarie",
+"co": "Indonesia Metals",
+"f": "Indonesia Metals",
+"k": "sector",
+"t": "Firm gold, tempered nickel"
 },
 {
 "d": "2026-10-01",
@@ -2120,11 +2118,11 @@
 },
 {
 "d": "2026-08-18",
-"h": "Unknown",
-"co": "Indonesia Strategy",
-"f": "Indonesia Strategy",
-"k": "strategy",
-"t": "Stocks Covered Rating (Buy-Neutral-Sell), Last 12m Earnings Revision Trend"
+"h": "RHB",
+"co": "Indonesia Macro",
+"f": "Indonesia Macro",
+"k": "macro",
+"t": "2027 Fiscal Blueprint, Ambition With Discipline"
 },
 {
 "d": "2026-08-17",
@@ -2144,7 +2142,7 @@
 },
 {
 "d": "2026-08-04",
-"h": "Unknown",
+"h": "RHB",
 "co": "Kalbe Farma",
 "f": "Kalbe Farma",
 "k": "company",
@@ -2274,7 +2272,7 @@
 },
 {
 "d": "2026-05-11",
-"h": "Unknown",
+"h": "RHB",
 "co": "Timah",
 "f": "Timah",
 "k": "company",
@@ -2365,7 +2363,7 @@
 },
 {
 "d": "2026-04-23",
-"h": "Unknown",
+"h": "RHB",
 "co": "HM Sampoerna",
 "f": "HM Sampoerna",
 "k": "company",

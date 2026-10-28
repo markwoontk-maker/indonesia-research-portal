@@ -22,6 +22,17 @@
 },
 {
 "d": "2026-10-27",
+"h": "RHB",
+"co": "Unilever Indonesia",
+"f": "Unilever Indonesia",
+"k": "company",
+"t": "Forging Ahead Amidst Headwinds, U-G To BUY",
+"action": "initiate",
+"rating": "REDUCE",
+"tk": "UNVR"
+},
+{
+"d": "2026-10-27",
 "h": "Maybank",
 "co": "Bank Mandiri",
 "f": "Bank Mandiri",
@@ -66,6 +77,29 @@
 "rating": "BUY",
 "tp": 1600.0,
 "tk": "AKRA"
+},
+{
+"d": "2026-10-26",
+"h": "RHB",
+"co": "Bank BTPN Syariah",
+"f": "Bank BTPN Syariah",
+"k": "company",
+"t": "Cleaner Books, Buyback Boost, Maintain BUY",
+"action": "maintain",
+"rating": "BUY",
+"tp": 1170.0,
+"tk": "BTPS"
+},
+{
+"d": "2026-10-26",
+"h": "RHB",
+"co": "Bank Mandiri",
+"f": "Bank Mandiri",
+"k": "company",
+"t": "Sequential NIM Squeeze Cushioned By Non-II, BUY",
+"action": "maintain",
+"rating": "BUY",
+"tk": "BMRI"
 },
 {
 "d": "2026-10-26",
@@ -354,6 +388,24 @@
 "f": "Indonesia Macro",
 "k": "macro",
 "t": "BI Rate Held At 5.75%, Balancing Rupiah Stability And Growth Support"
+},
+{
+"d": "2026-10-22",
+"h": "RHB",
+"co": "Indah Kiat Pulp & Paper",
+"f": "Indah Kiat Pulp & Paper",
+"k": "company",
+"t": "Avg. Daily Turnover (IDR-USD)",
+"tp": 13400.0,
+"tk": "INKP"
+},
+{
+"d": "2026-10-22",
+"h": "RHB",
+"co": "Indonesia Consumer Staples",
+"f": "Indonesia Consumer Staples",
+"k": "sector",
+"t": "9M26F, Earnings Rebound, Still Cautious On Costs"
 },
 {
 "d": "2026-10-22",

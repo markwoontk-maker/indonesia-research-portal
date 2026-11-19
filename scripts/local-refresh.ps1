@@ -10,7 +10,8 @@ $log = Join-Path $repo 'scripts\local-refresh.log'
 function Log($m) { "$(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')  $m" | Add-Content -Path $log -Encoding utf8 }
 
 git pull --rebase --autostash -q 2>&1 | Out-Null
-$idx = & uv run --with curl_cffi python scripts\refresh.py idx build 2>&1 | Select-String 'fetched|HTTP|ERR'
+# Keep curl_cffi current: on 2026-11-11 idx.co.id began returning 403 to the 0.16.x build; 0.17 works.
+$idx = & uv run --with "curl_cffi>=0.17" python scripts\refresh.py idx build 2>&1 | Select-String 'fetched|HTTP|ERR'
 Log ("idx: " + ($idx -join ' | '))
 $rn = & uv run --with pymupdf python scripts\build_research.py 2>&1 | Where-Object { $_ -notmatch 'deprecated' }
 Log ("research: " + ($rn -join ' '))
